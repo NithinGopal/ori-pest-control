@@ -1,0 +1,6 @@
+export { default as Home } from './home/Home'
+export { default as Navbar } from './navbar/Navbar'
+export { default as ContactPage } from './contactPage/ContactPage'
+export { default as PestControl } from './pestControl/PestControl'
+export { default as PestLibrary } from './pestLibrary/PestLibrary'
+export { default as TermiteControl } from './termiteControl/TermiteControl'

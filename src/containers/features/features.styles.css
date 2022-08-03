@@ -1,0 +1,13 @@
+.ori__features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ori__features h1 {
+    font-family: var(--font-family);
+    color: var(--color-heading);
+    align-self: flex-start;
+    margin-bottom: 1rem;
+}

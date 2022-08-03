@@ -1,0 +1,17 @@
+.ori__faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ori__faq-heading {
+    display: flex;
+    padding: 2rem;
+}
+
+.ori__faq-heading h1 {
+    font-family: var(--font-family);
+    color: var(--color-heading);
+    
+}

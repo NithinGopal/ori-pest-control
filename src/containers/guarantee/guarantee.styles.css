@@ -1,0 +1,39 @@
+.ori__guarantee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ori__guarantee-image {
+    border-right: 2px solid rgb(9, 9, 39);
+    margin-right: 4rem;
+}
+
+.ori__guarantee-image img {
+    height: 300px;
+    width: 300px;
+}
+
+.ori__guarantee-text p {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+@media screen and (max-width : 900px) {
+    .ori__guarantee {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ori__guarantee-image {
+        border-right: 0;
+        border-bottom: 2px solid rgb(9, 9, 39);
+        margin-bottom: 4rem;
+        margin-right: 0;
+    }
+}
