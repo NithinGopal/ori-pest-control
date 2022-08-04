@@ -9,19 +9,17 @@ const CallToAction = () => {
   return (
     <div className='ori__cta section__padding'>
       <div className='ori__cta-heading'>
-        <h1>Contact Us</h1>
+        <h1>Contact Us Today!</h1>
       </div>
       <div className='ori__cta_container'>
-        <div className='ori__cta-num'>
-          <a href="tel:+91">
-            
-            <h4><span><FiPhoneCall /></span> 9518947137</h4>
-          </a>
+        <div className='ori__cta_container-num'>
+          <span><FiPhoneCall size={22} color='#fff' /></span>
+          <a href="tel:+91">9518947137</a>
         </div>
-        <div className='ori_cta-chat'>
+        <div className='ori__cta_container-chat'>
           <Button text='Chat with us' />
         </div>
-        <div className='ori__cta-callback'>
+        <div className='ori__cta_container-callback'>
           <Button onClick={() => navigate('contactpage')} text='Schedule Inspection' />
         </div>
       </div>

@@ -1,5 +1,5 @@
 .ori__cta {
-    background-color: #414042;
+    background-color: var(--cta-bg);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -8,7 +8,13 @@
 
 .ori__cta-heading {
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.ori__cta-heading h1 {
+    font-family: var(--font-family);
+    color: var(--color-heading);
+    text-decoration: underline;
 }
 
 .ori__cta_container {
@@ -16,4 +22,28 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.ori__cta_container-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.ori__cta_container-num a {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 850px) {
+    .ori__cta_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 2rem;
+    }
 }
