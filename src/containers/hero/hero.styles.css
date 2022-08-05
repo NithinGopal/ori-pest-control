@@ -17,7 +17,7 @@
 .ori__hero-content {
     width: 100%;
     flex: 0.8;
-    padding: 2rem 4rem 2rem 4rem;
+    padding: 2rem 4rem 2rem 6rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -135,7 +135,7 @@
 
 @media screen and (max-width: 1050px) {
     .ori__hero {
-        margin: 2rem 6rem;
+        margin: 2rem 4rem;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-evenly;
