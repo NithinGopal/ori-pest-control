@@ -2,16 +2,16 @@
 
 :root {
   --font-family: 'Manrope', sans-serif;
-
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
   
-  --color-bg: #F3FCF0;
-  --color-footer : #0a2e36;
-  --color-navtext : #14cc60;
-  --color-heading: #052647;
-  --color-text: #404142;
-  --color-subtext: #FF8A71;
+  --body-bg: #F3EFF5;
+  --hero-bg: #04395E;
+  --color-banner: #031D44;
+  --color-footer : #031D44;
+  --color-navtext : #031D44;
+  --color-heading: #031D44;
+  --color-text: #36393b;
+  --feature-icon: #0b3c49;
+  --color-btn: #d8441e;
   --color-chatbtn : #01a344;
-  --cta-bg : #4f5050;
+  --cta-bg : #031D44;
 }

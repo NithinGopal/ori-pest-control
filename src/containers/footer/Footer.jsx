@@ -2,7 +2,7 @@ import React from 'react'
 import {FaFacebook, FaWhatsapp, FaTwitter, FaRegCopyright} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
-import logo from '../../assets/logo.png'
+import logo from '../../assets/footer-logo.png'
 import './footer.styles.css'
 
 const Footer = () => {
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
     </div>
     <div className='ori__footer-container_copyright'>
-      <p><span><FaRegCopyright /></span> 2022 The Terminix International Company Limited Partnership. All rights reserved.</p>
+      <p><span><FaRegCopyright /></span> 2022 Ori Pest Cop Limited Partnership. All rights reserved.</p>
     </div>
     </div>
   )

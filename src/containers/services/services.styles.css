@@ -4,6 +4,7 @@
     align-items: stretch;
     padding: 0 6rem;
     margin-bottom: 2rem;
+    /* background: #b1e5f2; */
 }
 
 .ori__services-image {
@@ -27,7 +28,7 @@
 .ori__services_content h1 {
     font-family: var(--font-family);
     color: var(--color-heading);
-    font-size: 25px;
+    font-size: 28px;
     margin-top: 2rem;
 }
 

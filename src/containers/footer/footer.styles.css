@@ -23,11 +23,12 @@
 .ori__footer-container_logo {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
 }
 .ori__footer-container_logo-image img {
-    width: 120px;
+    width: 150px;
+    height: 100%;
 }
 
 .ori__footer-container_services {

@@ -2,7 +2,7 @@ import React from 'react'
 
 import ServiceCard from '../../components/serviceCard/ServiceCard'
 
-import services from '../../assets/servicesAssets/services.png'
+import services from '../../assets/servicesAssets/services-nobg.png'
 import termite from '../../assets/servicesAssets/termite.png'
 import bedbug from '../../assets/servicesAssets/bed-bug.png'
 import ticks from '../../assets/servicesAssets/ticks.png'

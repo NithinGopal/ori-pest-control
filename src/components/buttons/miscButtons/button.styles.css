@@ -8,14 +8,14 @@
     box-sizing: border-box;
     box-shadow: none;
     border-radius: 40px;
-
+    background: var(--color-btn);
     font-family: var(--font-family);
-    color: var(--color-btntext);
+    color: var(--body-bg);
     font-weight: 900;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .ori__button:hover {
-    background-color: #5bbe6e;
-    color: aliceblue;
+    background-color: #ee6f1b;
+    color: var(--color-heading);
 }

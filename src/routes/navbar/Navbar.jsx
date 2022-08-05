@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
+import { MdPhoneInTalk } from 'react-icons/md'
 import NavMenu from '../../containers/navMenu/NavMenu'
 
-import logo from '../../assets/logo.png'
+import logo from '../../assets/navicon-nobg.png'
 import './navbar.styles.css'
 
 const Navbar = () => {
@@ -11,12 +12,13 @@ const Navbar = () => {
 
   return (
     <>
+      <div className='ori__banner'><MdPhoneInTalk size={24} /><span><a href="tel:+">+91-9518947137</a></span></div>
       <div className='ori__navbar'>
         <div className='ori__navbar-links'>
           <Link to='/'>
             <div className='ori__navbar-links_logo'>
               <img src={logo} alt='logo' />
-              <p>Ori Pest Cop</p>
+              {/* <p>Ori Pest Cop</p> */}
             </div>
           </Link>
         </div>

@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem 6rem;
 }
 
 .ori__cta-heading {
@@ -13,8 +14,8 @@
 
 .ori__cta-heading h1 {
     font-family: var(--font-family);
-    color: var(--color-heading);
-    text-decoration: underline;
+    color: var(--body-bg);
+    /* text-decoration: underline; */
 }
 
 .ori__cta_container {
@@ -32,7 +33,7 @@
 }
 
 .ori__cta_container-num a {
-    color: #fff;
+    color: var(--body-bg);
     font-family: var(--font-family);
     font-size: 18px;
     font-weight: 700;

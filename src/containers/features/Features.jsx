@@ -15,7 +15,7 @@ const Features = () => {
       <h1>A pest control process you can trust.</h1>
       <FeatureCard 
         image={service} 
-        icon={<FaHandshake size={40} color='#404142' />} 
+        icon={<FaHandshake size={40} color='#93acb5' />} 
         title='Serve' 
         heading='Service on your time.'
         text={`With online scheduling and account management, 
@@ -24,7 +24,7 @@ const Features = () => {
       />
       <FeatureCard 
         image={inspection} 
-        icon={<BiSearchAlt size={40} color='#404142' />} 
+        icon={<BiSearchAlt size={40} color='#93acb5' />} 
         title='Inspect' 
         heading='Pest control inspection done right.'
         text={`Our experts are trained in your local pest populations 
@@ -35,7 +35,7 @@ const Features = () => {
       />
       <FeatureCard 
         image={billing} 
-        icon={<BiNotepad size={40} color='#404142' />} 
+        icon={<BiNotepad size={40} color='#93acb5' />} 
         title='Advise' 
         heading='Customized treatment plans'
         text={`We’ll explain your pest problem in plain language and work 
@@ -44,7 +44,7 @@ const Features = () => {
       />
       <FeatureCard 
         image={partners} 
-        icon={<FaHandshake size={40} color='#404142' />} 
+        icon={<FaHandshake size={40} color='#93acb5' />} 
         title='Partner' 
         heading='Your pest-free partners.'
         text={`Once we start treatment, you can relax. We guarantee we’ll nix 

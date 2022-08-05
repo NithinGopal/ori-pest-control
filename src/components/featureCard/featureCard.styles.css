@@ -15,10 +15,10 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
-    padding: 2rem;
+    padding: 0 2rem;
 }
 .ori__features_featureCard-content_icon {
     display: flex;

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import guarantee from '../../assets/guarantee.png'
+import guarantee from '../../assets/guarantee-nobg.png'
 import './guarantee.styles.css'
 
 const Guarantee = () => {
@@ -11,8 +11,8 @@ const Guarantee = () => {
       </div>
       <div className='ori__guarantee-text'>
         <p>
-          The Nix Pest Guarantee means you can relax knowing 
-          we’ll nix your pest problem, and keep it nixed. 
+          Ori Pest Cop Guarantee means you can relax knowing 
+          we’ll fix your pest problem, and it'll stay nixed. 
           And if pests come back between treatments, so 
           will we — at no additional cost to you.
         </p>

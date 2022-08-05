@@ -1,9 +1,23 @@
+.ori__banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-banner);
+    padding: 1rem;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--body-bg);
+    gap: 10px;
+    text-decoration: underline;
+}
+
 .ori__navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem 6rem;
+    padding: 1rem 6rem;
 }
 
 .ori__navbar-links {
@@ -21,18 +35,18 @@
 }
 
 .ori__navbar-links_logo img {
-    width: 56px;
-    height: 56px;
+    width: 120px;
+    height: 100%;
     margin-right: 1rem;
 }
 
-.ori__navbar-links_logo p {
+/* .ori__navbar-links_logo p {
     font-family: var(--font-family);
     color: var(--color-navtext);
     font-size: 25px;
     font-weight: bold;
     text-decoration: underline;
-}
+} */
 
 .ori__navbar-links_container {
     display: flex;
@@ -50,15 +64,18 @@
 .ori__navbar-links_container,
 .ori__navbar-contact p,
 .ori__navbar-menu_container p {
-    color: var(--color-text);
+    color: var(--color-navtext);
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
-
     margin: 0 1rem;
     cursor: pointer;
+}
+
+.ori__navbar-menu_container p {
+    border-bottom: 2px solid var(--color-text);
 }
 
 .ori__navbar-contact button,
@@ -94,7 +111,7 @@
     align-items: flex-end;
     flex-direction: column;
     text-align: start;
-    background: var(--color-navtext);
+    background: var(--body-bg);
     padding: 2rem;
     position: absolute;
     top: 40px;

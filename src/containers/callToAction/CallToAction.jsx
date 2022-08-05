@@ -7,9 +7,9 @@ import './callToAction.styles.css'
 const CallToAction = () => {
   const navigate = useNavigate()
   return (
-    <div className='ori__cta section__padding'>
+    <div className='ori__cta'>
       <div className='ori__cta-heading'>
-        <h1>Contact Us Today!</h1>
+        <h1>Contact Us</h1>
       </div>
       <div className='ori__cta_container'>
         <div className='ori__cta_container-num'>
