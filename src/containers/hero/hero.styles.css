@@ -135,7 +135,7 @@
 
 @media screen and (max-width: 1050px) {
     .ori__hero {
-        margin: 2rem 4rem;
+        /* margin: 2rem 4rem; */
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-evenly;
