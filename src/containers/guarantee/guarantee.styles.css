@@ -28,6 +28,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 4rem 2rem;
     }
 
     .ori__guarantee-image {
@@ -37,3 +38,4 @@
         margin-right: 0;
     }
 }
+

@@ -55,3 +55,9 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width : 550px) {
+    .ori__services {
+        padding: 0 2rem;
+    }
+}

@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='ori__banner'><MdPhoneInTalk size={24} /><span><a href="tel:+">+91-9518947137</a></span></div>
+      <div className='ori__banner'><MdPhoneInTalk size={24} /><span><a href="tel:+">+91-9100094789</a></span></div>
       <div className='ori__navbar'>
         <div className='ori__navbar-links'>
           <Link to='/'>
@@ -26,7 +26,7 @@ const Navbar = () => {
           <NavMenu />
         </div>
         <div className='ori__navbar-contact'>
-          <a href="tel:+"><p>+91-9518947137</p></a>
+          <a href="tel:+"><p><span><MdPhoneInTalk /></span>+91-9100094789</p></a>
           <button type='button'>Chat</button>
         </div>
         <div className='ori__navbar-menu'>

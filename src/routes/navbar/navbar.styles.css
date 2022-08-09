@@ -59,6 +59,15 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding: 0;
+}
+
+.ori__navbar-contact p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 0;
 }
 
 .ori__navbar-links_container,
@@ -161,5 +170,6 @@
 
     .ori__navbar-menu_container-links-contact {
         display: block;
+        text-align: center;
     }
 }

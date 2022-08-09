@@ -11,3 +11,10 @@
     /* align-self: flex-start; */
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width : 880px) {
+    .ori__features {
+        margin: 4rem 0;
+        padding: 0 2rem;
+    }
+}
