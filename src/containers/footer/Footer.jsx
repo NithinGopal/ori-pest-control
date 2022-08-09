@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaFacebook, FaWhatsapp, FaTwitter, FaRegCopyright} from 'react-icons/fa'
+import {FaFacebook, FaWhatsapp, FaRegCopyright, FaYoutube} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 import logo from '../../assets/footer-logo.png'
@@ -42,9 +42,9 @@ const Footer = () => {
           <a href='#'>Chat</a>
           <a href='#'>Email</a>
           <div className='ori__footer-container_contact-socials'>
-            <FaFacebook />
-            <FaWhatsapp />
-            <FaTwitter />
+            <a href='https://www.facebook.com/oripestservice' target='_blank' rel="noreferrer"><FaFacebook /></a>
+            <a href='https://wa.me/message/RE3RCGX3NMFDP1' target='_blank' rel="noreferrer"><FaWhatsapp /></a>
+            <a href='https://youtube.com/channel/UCDck-_3SmiS36pUmOSV22Gw' target='_blank' rel="noreferrer"><FaYoutube /></a>
           </div>
         </div>
     </div>
