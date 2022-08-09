@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { FiPhoneCall } from 'react-icons/fi'
 import Button from '../../components/buttons/miscButtons/Button'
 import './callToAction.styles.css'
+import { MdPhoneInTalk } from 'react-icons/md'
 
 const CallToAction = () => {
   const navigate = useNavigate()
@@ -14,7 +15,7 @@ const CallToAction = () => {
       <div className='ori__cta_container'>
         <div className='ori__cta_container-num'>
           <span><FiPhoneCall size={22} color='#fff' /></span>
-          <a href="tel:+91">9518947137</a>
+          <a href="tel:+91">9100094789</a>
         </div>
         <div className='ori__cta_container-chat'>
           <Button text='Chat with us' />
