@@ -14,10 +14,13 @@ const Footer = () => {
             <img src={logo} alt='logo' />
           </div>
           <div className='ori__footer-container_logo-address'>
-            <p>15-4-49</p>
-            <p>xyz street</p>
+            <p>Ori Pest Cop</p>
+            <p>Haranadhapuram</p>
+            <p>Muthukur Gate</p>
             <p>Nellore</p>
-            <p>524201</p>
+            <p>524203</p>
+            <p>Andhra Pradesh</p>
+            <p>India</p>
           </div>
         </div>
         <div className='ori__footer-container_services'>
