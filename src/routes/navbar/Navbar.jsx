@@ -3,6 +3,7 @@ import { Link, Outlet } from 'react-router-dom'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import { MdPhoneInTalk } from 'react-icons/md'
 import NavMenu from '../../containers/navMenu/NavMenu'
+import Footer from '../../containers/footer/Footer'
 
 import logo from '../../assets/navicon-nobg.png'
 import './navbar.styles.css'
@@ -50,6 +51,7 @@ const Navbar = () => {
         </div>
       </div>
       <Outlet />
+      <Footer />
     </>
   )
 }

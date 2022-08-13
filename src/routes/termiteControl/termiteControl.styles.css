@@ -1,0 +1,41 @@
+.ori__termiteControl {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 6rem;
+}
+
+.ori__termiteControl-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ori__termiteControl-title_heading {
+    flex: 1.2;
+}
+
+.ori__termiteControl-title_content {
+    flex: 1;
+}
+
+.ori__termiteControl-hero {
+    position: relative;
+}
+
+.ori__termiteControl-hero img {
+    width: 100%;
+}
+
+.ori__termiteControl-hero_heading {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.ori__termiteControl-science {
+    display: flex;
+}
+
+.ori__termiteControl-science_contact {
+    flex: 0.5;
+}

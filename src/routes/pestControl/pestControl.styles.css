@@ -1,0 +1,16 @@
+.ori__pestControl {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 6rem;
+}
+
+.ori__pestControl-hero {
+    
+}
+
+.ori__pestControl-serviceCards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -23,7 +23,7 @@ const Home = () => {
       <FAQ />
       <CallToAction />
       <Guarantee />
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

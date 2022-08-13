@@ -1,0 +1,9 @@
+.ori__contactPage {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ori__contactPage-contact {
+    display: flex;
+}

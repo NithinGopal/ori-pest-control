@@ -12,8 +12,8 @@ const NavMenu = () => {
       <Link to='/pest-control'>
         <p>Pest Control</p>
       </Link>
-      <Link to='/blog'>
-        <p>Blog</p>
+      <Link to='/pest-library'>
+        <p>Pest Library</p>
       </Link>
     </>
   )

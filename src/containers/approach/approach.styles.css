@@ -1,0 +1,22 @@
+.ori__termiteControl-approach {
+    display: flex;
+    flex-direction: column;
+}
+
+.ori__termiteControl-approach_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ori__termiteControl-approach_content-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 25%;
+}
