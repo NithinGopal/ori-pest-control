@@ -15,3 +15,7 @@
   --color-chatbtn : #01a344;
   --cta-bg : #031D44;
 }
+
+body {
+  margin: 0;
+}
