@@ -30,7 +30,7 @@ const ContactPage = () => {
             program for your situation.
           </p>
         </div>
-        {/* <ContactForm /> */}
+        <ContactForm />
       </div>
     </div>
   )

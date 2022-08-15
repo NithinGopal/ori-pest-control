@@ -1,16 +1,29 @@
 .ori__termiteControl-approach {
+    padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+    font-family: var(--font-family);
+}
+
+.ori__termiteControl-approach_heading {
+    padding: 1rem 0;
+}
+
+.ori__termiteControl-approach_heading h1 {
+    color: var(--color-heading);
+    line-height: 1.5rem;
 }
 
 .ori__termiteControl-approach_content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    text-align: left;
+    
     flex-wrap: wrap;
     gap: 20px;
+
 }
 
 .ori__termiteControl-approach_content-card {
@@ -18,5 +31,44 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 25%;
+    max-width: 350px;
+}
+
+.ori__termiteControl-approach_content-card h2 {
+    color: var(--color-heading);
+}
+
+.ori__termiteControl-approach_content-card p {
+    text-align: left;
+    color: var(--color-text);
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+    .ori__termiteControl-approach {
+        display: flex;
+        flex-flow: column wrap;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ori__termiteControl-approach_content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ori__termiteControl-approach_content-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ori__termiteControl-approach_content-card p {
+        text-align: center;
+    }
 }

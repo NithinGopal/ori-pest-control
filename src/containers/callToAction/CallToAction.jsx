@@ -21,7 +21,7 @@ const CallToAction = () => {
           <Button text='Chat with us' />
         </div>
         <div className='ori__cta_container-callback'>
-          <Button onClick={() => navigate('contactpage')} text='Schedule Inspection' />
+          <Button onClick={() => navigate('contact-page')} text='Schedule Inspection' />
         </div>
       </div>
     </div>  

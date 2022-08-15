@@ -1,0 +1,39 @@
+.ori__termiteControl-science_content-cards_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem;
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 250px;
+    font-family: var(--font-family);
+}
+
+.ori__termiteControl-science_content-cards_card_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    min-height: 50px;
+    background: rgb(161, 240, 161);
+    padding: 1.5rem;
+    border-radius: 50%;
+}
+
+.ori__termiteControl-science_content-cards_card_img img {
+    object-fit: contain;
+}
+
+.ori__termiteControl-science_content-cards_card h3 {
+    color: var(--color-heading);
+}
+
+.ori__termiteControl-science_content-cards_card p {
+    color: var(--color-text);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    padding: 0;
+}

@@ -1,16 +1,231 @@
 .ori__pestControl {
     display: flex;
     flex-direction: column;
-    padding: 2rem 6rem;
+    padding-bottom: 2rem;
 }
 
 .ori__pestControl-hero {
-    
+    position: relative;
+    text-align: center;
+    color: var(--body-bg);
+    display: flex;
 }
 
-.ori__pestControl-serviceCards {
+.ori__pestControl-hero_content {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    
+    font-family: var(--font-family);
+}
+
+.ori__pestControl-hero_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ori__pestControl-hero_content h5 {
+    color: green;
+    font-size: 40px;
+    padding-bottom: 1rem;
+}
+
+.ori__pestControl-hero_content h1 {
+    font-size: 64px;
+    padding-bottom: 2rem;
+}
+
+.ori__pestControl-hero_content-socials {
     display: flex;
     justify-content: space-evenly;
+}
+
+.ori__pestControl-problem {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 2rem 6rem;
+
+    font-family: var(--font-family);
+}
+
+.ori__pestControl-problem_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 2rem;
+}
+
+.ori__pestControl-problem_left p {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-text);
+    padding: 1rem 0;
+}
+
+.ori__pestControl-problem_left h2 {
+    color: var(--color-heading);
+    line-height: 2rem;
+}
+
+.ori__pestControl-problem_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 4rem;
+}
+
+.ori__pestControl-problem_right h3 {
+    color: var(--color-heading);
+}
+
+.ori__pestControl-problem_right p {
+    text-align: left;
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.ori__pestControl-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var(--font-family);
+    padding: 2rem 0;
+}
+
+.ori__pestControl-services h1 {
+    color: var(--color-heading);
+}
+
+.ori__pestControl-services_serviceCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
     flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.ori__pestControl-expect {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 6rem;
+}
+
+.ori__pestControl-expect_img {
+    border-right: 2px solid rgb(9, 9, 39);
+    margin-right: 4rem;
+}
+
+.ori__pestControl-expect_img img {
+    height: 300px;
+    width: 300px;
+}
+
+.ori__pestControl-expect_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 4rem;
+
+    font-family: var(--font-family);
+}
+
+.ori__pestControl-expect_content p {
+    font-weight: 600;
+    color: var(--color-text);
+    text-align: left;
+}
+
+.ori__pestControl-approach {
+    padding: 0 6rem;
+}
+
+
+@media screen and (max-width: 950px) {
+    .ori__pestControl-hero_content {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        
+        font-family: var(--font-family);
+    }
+    
+    .ori__pestControl-hero_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .ori__pestControl-hero_content h5 {
+        color: green;
+        font-size: 20px;
+        padding-bottom: 1rem;
+    }
+    
+    .ori__pestControl-hero_content h1 {
+        font-size: 32px;
+        padding-bottom: 2rem;
+    }
+
+    .ori__pestControl-problem {
+        padding: 2rem 1rem;
+    }
+
+    .ori__pestControl-problem,
+    .ori__pestControl-problem_left,
+    .ori__pestControl-problem_right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+    
+    .ori__pestControl-problem p {
+        text-align: center;
+        line-height: 1.5rem;
+    }
+
+    .ori__pestControl-expect {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .ori__pestControl-expect_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem 2rem;
+    }
+
+    .ori__pestControl-expect_content p {
+        text-align: center;
+    }
+
+    .ori__pestControl-expect_img {
+        text-align: center;
+        border-right: none;
+        border-bottom: 2px solid rgb(9, 9, 39);
+        margin: 0;
+    }
+
+    .ori__pestControl-contact {
+        padding: 2rem 4rem;
+    }
 }

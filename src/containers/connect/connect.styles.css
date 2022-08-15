@@ -1,5 +1,85 @@
 .ori__termiteControl-connect {
     display: flex;
     justify-content: space-evenly;
+    align-items: flex-start;
+
+    font-family: var(--font-family);
+
+    gap: 4rem;
+}
+
+.ori__termiteControl-connect_call h1 {
+    color: var(--color-heading);
+}
+
+.ori__termiteControl-connect_call p {
+    color: var(--color-text);
+    font-weight: 600;
+    padding: 2rem 0;
+}
+
+.ori__termiteControl-connect_call-link {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
     align-items: center;
+}
+.ori__termiteControl-connect_call-link a {
+    font-size: 20px;
+    color: var(--color-heading);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.ori__termiteControl-connect_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 1rem;
+}
+
+.ori__termiteControl-connect_form h2 {
+    color: var(--color-heading);
+}
+
+.ori__termiteControl-connect_form p {
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+.ori__termiteControl-connect_form button {
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0.7rem 2.5rem;
+    border: none;
+    outline: none;
+    background: var(--color-btn);
+    color: var(--body-bg);
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 850px) {
+    .ori__termiteControl-connect {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .ori__termiteControl-connect_call {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ori__termiteControl-connect_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
