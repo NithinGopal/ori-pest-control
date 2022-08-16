@@ -26,7 +26,7 @@ const ContactPage = () => {
       <div className='ori__contactPage-contact'>
         <div className='ori__contactPage-contact_content'>
           <p>GET A QUOTE</p>
-          <h1>Get your free, personalized, no obligation quote.</h1>
+          <h2>Get your free, personalized, no obligation quote.</h2>
           <p>
             Our technicians are trained to diagnose and treat all types of pest problems. 
             Because every home is different, they work with you to design a unique 

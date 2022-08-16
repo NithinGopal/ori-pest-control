@@ -50,6 +50,19 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+    gap: 1rem;
+}
+
+.ori__contactPage-contact_content p {
+    color: var(--color-text);
+    font-weight: 600;
+    text-align: left;
+    line-height: 1.5rem;
+    padding: 0;
+}
+
+.ori__contactPage-contact_content h2 {
+    color: var(--color-heading);
 }
 
 .ori__contactPage-contact_form {
@@ -57,5 +70,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    margin-left: 2rem;
 }
 
