@@ -62,10 +62,10 @@ const ContactForm = () => {
             <label htmlFor='email'>Email Address</label>
             <Field name='email' type='email' />
             <ErrorMessage name='email' />
-
-            <br />
-            <Field name='acceptedTerms' type='checkbox' />
-            <br />
+            <div className='terms'>
+                <Field name='acceptedTerms' type='checkbox' />
+                <p>Accept Terms & Conditions</p>
+            </div>
             <button type='submit'>Submit</button>
         </Form>
     </Formik>

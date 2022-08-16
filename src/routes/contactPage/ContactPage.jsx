@@ -1,6 +1,7 @@
 import React from 'react'
-import { FaFacebook, FaWhatsapp, FaYoutube } from 'react-icons/fa'
+import { FaFacebook, FaWhatsapp, FaYoutube, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import ContactForm from '../../containers/contactForm/ContactForm'
+import cpHero from '../../assets/contact-page/contact-page-hero.png'
 import './contactPage.styles.css'
 
 const ContactPage = () => {
@@ -8,15 +9,17 @@ const ContactPage = () => {
     <div className='ori__contactPage'>
       <div className='ori__contactPage-hero'>
         <div className='ori__contactPage-hero_img'>
-          <img src="" alt="" />
+          <img src={cpHero} alt="cpHero" />
         </div>
         <div className='ori__contactPage-hero_content'>
-          <h3>Ori Pest Cop</h3>
-          <h1>PEST PROBLEM? WE CAN HELP</h1>
+          <h1>Ori Pest Cop</h1>
+          <h3>PEST PROBLEM? WE CAN HELP</h3>
           <div className='ori__pestControl-hero_content-socials'>
-            <FaFacebook />
-            <FaWhatsapp />
-            <FaYoutube />
+            <a href='https://www.facebook.com/oripestservice' target='_blank' rel="noreferrer"><FaFacebook size={24} /></a>
+            <a href='https://wa.me/message/RE3RCGX3NMFDP1' target='_blank' rel="noreferrer"><FaWhatsapp size={24} /></a>
+            <a href='https://youtube.com/channel/UCDck-_3SmiS36pUmOSV22Gw' target='_blank' rel="noreferrer"><FaYoutube size={24} /></a>
+            <a href='https://www.linkedin.com/in/ori-pest-cop-372175218' target='_blank' rel="noreferrer"><FaLinkedin size={24} /></a>
+            <a href="https://www.instagram.com/oripestcop/" target='_blank' rel="noreferrer"><FaInstagram size={24} /></a>
           </div>
         </div>
       </div>
@@ -30,7 +33,9 @@ const ContactPage = () => {
             program for your situation.
           </p>
         </div>
-        <ContactForm />
+        <div className='ori__contactPage-contact_form'>
+         <ContactForm />
+        </div>
       </div>
     </div>
   )

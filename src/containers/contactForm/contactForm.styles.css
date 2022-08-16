@@ -1,0 +1,56 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+label {
+    color: var(--color-heading);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+input {
+    height: 35px;
+    width: 100px;
+    width: 100%;
+    text-align: left;
+}
+
+select {
+    height: 40px;
+    padding: 10px 0;
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+.terms {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.terms input {
+    width: 20px;
+}
+
+.terms p {
+    padding: 0 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+ form button {
+    padding: 1rem 2rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--body-bg);
+    background-color: var(--color-btn);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
