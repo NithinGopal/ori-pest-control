@@ -19,7 +19,7 @@ const ContactForm = () => {
         }} 
         validationSchema={Yup.object({
             firstName: Yup.string()
-                .max(15, 'Must be 15 characters or fewer')
+                .max(20, 'Must be 15 characters or fewer')
                 .required('Required'),
             lastName: Yup.string()
                 .max(20, 'Must be 20 characters or fewer')
@@ -39,10 +39,7 @@ const ContactForm = () => {
         })} 
         onSubmit={(values, { setSubmitting }) => {
             // alert(JSON.stringify(values, null, 2));
-            setTimeout(() => {
-                alert(JSON.stringify(values, null, 2));
-                setSubmitting(false);
-            }, 10);
+            console.log('Customer Details', values)
         }}
     >
         <Form>
@@ -52,15 +49,15 @@ const ContactForm = () => {
                 <option value='Pest Control'>Pest Control</option>
             </Field>
             <label htmlFor='firstName'>First Name</label>
-            <Field name='firstName' type='text' />
+            <Field name='firstName' type='text' placeholder='First Name' />
             <ErrorMessage name='firstName' />
 
             <label htmlFor='lastName'>Last Name</label>
-            <Field name='lastName' type='text' />
+            <Field name='lastName' type='text' placeholder='Last Name' />
             <ErrorMessage name='lastName' />
 
             <label htmlFor='email'>Email Address</label>
-            <Field name='email' type='email' />
+            <Field name='email' type='email' placeholder='username@example.com' />
             <ErrorMessage name='email' />
             <div className='terms'>
                 <Field name='acceptedTerms' type='checkbox' />
