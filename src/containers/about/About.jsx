@@ -4,7 +4,7 @@ import './about.styles.css'
 
 const About = () => {
   return (
-    <div className='ori__about section__padding'>
+    <div className='ori__about'>
       <div className='ori__about-content'>
         <div className='ori__about-content_heading'>
           <h1>Ori Pest Cop is the best way to fix your pest problems</h1>

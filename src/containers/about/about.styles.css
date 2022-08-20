@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding: 4rem 6rem;
 }
 
 .ori__about-content {
@@ -42,4 +43,16 @@
 
 .ori__about-cards {
     padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .ori__about {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .ori__about-content_heading h1 {
+        font-size: 35px;
+    }
 }
