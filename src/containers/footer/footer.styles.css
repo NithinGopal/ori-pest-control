@@ -6,6 +6,7 @@
     background: var(--color-footer);
     color: aliceblue;
     font-family: var(--font-family);
+    padding: 2rem 4rem;
 }
 
 .ori__footer-container {
@@ -17,7 +18,7 @@
 }
 
 .ori__footer-container h3 {
-    color: crimson;
+    color: rgb(20, 160, 20);
 }
 
 .ori__footer-container_logo {
@@ -57,6 +58,13 @@
 
 .ori__footer-container_contact-socials {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.ori__footer-container_contact-socials_links {
+    display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
     gap: 12px;
@@ -65,7 +73,7 @@
 
 .ori__footer-container_copyright {
     border-top: 2px solid black;
-    padding-top: 2rem;
+    padding: 2rem 0;
 }
 
 @media screen and (max-width: 800px) {

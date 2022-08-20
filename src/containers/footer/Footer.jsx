@@ -13,7 +13,7 @@ const Footer = () => {
           <div className='ori__footer-container_logo-image'>
             <img src={logo} alt='logo' />
           </div>
-          <div className='ori__footer-container_logo-address'>
+          {/* <div className='ori__footer-container_logo-address'>
             <p>Ori Pest Cop</p>
             <p>Haranadhapuram</p>
             <p>Muthukur Gate</p>
@@ -21,7 +21,7 @@ const Footer = () => {
             <p>524203</p>
             <p>Andhra Pradesh</p>
             <p>India</p>
-          </div>
+          </div> */}
         </div>
         <div className='ori__footer-container_services'>
           <div className='ori__footer-container_services-heading'>
@@ -32,22 +32,21 @@ const Footer = () => {
         </div>
         <div className='ori__footer-container_about'>
           <div className='ori__footer-container_about-heading'>
-            <h3>About Ori</h3>
+            <a href="#about"><h3>About</h3></a>
           </div>
-          <a href='#'>About</a>
-          <a href='#'>Blog</a>
         </div>
         <div className='ori__footer-container_contact'>
           <div className='ori__footer-container_contact-heading'>
-              <h3>Contact</h3>
+              <Link to='/contact-page'><h3>Contact</h3></Link>
           </div>
-          <a href="tel:+">91 9518947137</a>
-          <a href='#'>Chat</a>
-          <a href='#'>Email</a>
-          <div className='ori__footer-container_contact-socials'>
-            <a href='https://www.facebook.com/oripestservice' target='_blank' rel="noreferrer"><FaFacebook /></a>
-            <a href='https://wa.me/message/RE3RCGX3NMFDP1' target='_blank' rel="noreferrer"><FaWhatsapp /></a>
-            <a href='https://youtube.com/channel/UCDck-_3SmiS36pUmOSV22Gw' target='_blank' rel="noreferrer"><FaYoutube /></a>
+          <a href="tel:+919100094789">Call Now</a>
+        </div>
+        <div className='ori__footer-container_contact-socials'>
+          <h3>Follow us on</h3>
+          <div className='ori__footer-container_contact-socials_links'>
+            <a href='https://www.facebook.com/oripestservice' target='_blank' rel="noreferrer"><FaFacebook size={20} /></a>
+            <a href='https://wa.me/message/RE3RCGX3NMFDP1' target='_blank' rel="noreferrer"><FaWhatsapp size={20} /></a>
+            <a href='https://youtube.com/channel/UCDck-_3SmiS36pUmOSV22Gw' target='_blank' rel="noreferrer"><FaYoutube size={20} /></a>
           </div>
         </div>
     </div>
