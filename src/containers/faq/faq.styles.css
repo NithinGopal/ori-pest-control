@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding: 2rem 6rem;
 }
 
 .ori__faq-heading {
@@ -13,5 +14,13 @@
 .ori__faq-heading h1 {
     font-family: var(--font-family);
     color: var(--color-heading);
-    
+}
+
+@media screen and (max-width: 550px) {
+    .ori__faq {
+        padding: 2rem;
+    }
+    .ori__faq-heading {
+        text-align: center;
+    }
 }

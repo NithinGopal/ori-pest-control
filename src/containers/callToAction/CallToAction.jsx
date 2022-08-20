@@ -17,9 +17,6 @@ const CallToAction = () => {
           <span><FiPhoneCall size={22} color='#fff' /></span>
           <a href="tel:+91">9100094789</a>
         </div>
-        <div className='ori__cta_container-chat'>
-          <Button text='Chat with us' />
-        </div>
         <div className='ori__cta_container-callback'>
           <Button onClick={() => navigate('contact-page')} text='Schedule Inspection' />
         </div>

@@ -13,6 +13,8 @@
     color: var(--body-bg);
     font-weight: 900;
     font-size: 18px;
+
+    width: 100%;
 }
 
 .ori__button:hover {

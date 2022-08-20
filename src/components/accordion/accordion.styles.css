@@ -52,15 +52,16 @@ transform: rotate(90deg);
 
 /* Style the accordion content panel. Note: hidden by default */
 .accordion__content {
-background-color: white;
+background-color: var(body-bg);
 overflow: hidden;
 transition: max-height 0.5s ease;
 }
 
 /* Style the accordion content text */
 .accordion__text {
-font-family: "Open Sans", sans-serif;
-font-weight: 400;
+  color: var(--color-text);
+font-family: var(--font-family);
+font-weight: 600;
 font-size: 14px;
 padding: 18px;
 }

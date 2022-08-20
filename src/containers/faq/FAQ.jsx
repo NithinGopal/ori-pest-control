@@ -4,45 +4,26 @@ import './faq.styles.css'
 
 const FAQ = () => {
   return (
-    <div className='ori__faq section__margin'>
+    <div className='ori__faq'>
       <div className='ori__faq-heading'>
-        <h1>Frequently Asked Termite Service Questions</h1>
+        <h1>Frequently Asked Ori Pest Service Questions</h1>
       </div>
       <div className='ori__faq-accordian'>
         <Accordion
-        title="What is your return policy?"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        title="What does Ori Pest Cop do?"
+        content="Ori Pest Cop is a pest and termite control company with certified technicians. Our friendly, expertly-trained local exterminators are here to help protect your home, and our pest control services are designed to make your life easier, 365 days a year. Schedule a free inspection today."
         />
         <Accordion
-          title="Which languages does you support?"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="How do I pay my pest control bill?"
+          content="We accept both cash and all types of online payment methods"
         />
         <Accordion
-          title="Can I use a custom domain?"
-          content="
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+          title="Is getting pest control worth it?"
+          content="Absolutely! Regular pest control saves a lot of money in the long term."
         />
         <Accordion
-          title="Can I use a custom domain?"
-          content="
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
-        />
-        <Accordion
-          title="Can I use a custom domain?"
-          content="
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+          title="Is a Ori Pest Cop inspection free?"
+          content="Yes, initial pest control and termite inspections from Ori Pest Cop are FREE. Once our experts arrive at your home, they'll create a customized plan to fit your specific need. You can get started with a free inspection today."
         />
       </div>
     </div>
