@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaFacebook, FaWhatsapp, FaRegCopyright, FaYoutube} from 'react-icons/fa'
+import {FaFacebook, FaWhatsapp, FaRegCopyright, FaYoutube, FaLinkedin, FaInstagram} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 import logo from '../../assets/footer-logo.png'
@@ -7,7 +7,7 @@ import './footer.styles.css'
 
 const Footer = () => {
   return (
-    <div className='ori__footer section__padding'>
+    <div className='ori__footer'>
       <div className='ori__footer-container'>
         <div className='ori__footer-container_logo'>
           <div className='ori__footer-container_logo-image'>
@@ -18,7 +18,7 @@ const Footer = () => {
             <p>Haranadhapuram</p>
             <p>Muthukur Gate</p>
             <p>Nellore</p>
-            <p>524203</p>
+            <p>520203</p>
             <p>Andhra Pradesh</p>
             <p>India</p>
           </div> */}
@@ -42,11 +42,13 @@ const Footer = () => {
           <a href="tel:+919100094789">Call Now</a>
         </div>
         <div className='ori__footer-container_contact-socials'>
-          <h3>Follow us on</h3>
+          <h3>Follow us on:</h3>
           <div className='ori__footer-container_contact-socials_links'>
-            <a href='https://www.facebook.com/oripestservice' target='_blank' rel="noreferrer"><FaFacebook size={20} /></a>
+          <a href='https://www.facebook.com/oripestservice' target='_blank' rel="noreferrer"><FaFacebook size={20} /></a>
             <a href='https://wa.me/message/RE3RCGX3NMFDP1' target='_blank' rel="noreferrer"><FaWhatsapp size={20} /></a>
             <a href='https://youtube.com/channel/UCDck-_3SmiS36pUmOSV22Gw' target='_blank' rel="noreferrer"><FaYoutube size={20} /></a>
+            <a href='https://www.linkedin.com/in/ori-pest-cop-372175218' target='_blank' rel="noreferrer"><FaLinkedin size={20} /></a>
+            <a href="https://www.instagram.com/oripestcop/" target='_blank' rel="noreferrer"><FaInstagram size={20} /></a>
           </div>
         </div>
     </div>
