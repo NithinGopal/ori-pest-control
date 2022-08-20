@@ -1,15 +1,34 @@
 .ori__banner {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     background-color: var(--color-banner);
-    padding: 1rem;
     font-family: var(--font-family);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--body-bg);
+
+    padding: 0.5rem 6rem;
+}
+
+.ori__banner-location {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
     gap: 10px;
-    text-decoration: underline;
+}
+
+.ori__banner-call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0.5rem 0;
+    
+    gap: 10px;
+}
+.ori__banner p {
+    padding: 0;
+    font-size: 14px;
 }
 
 .ori__navbar {
@@ -17,7 +36,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 1rem 6rem;
+    padding: 0.6rem 6rem;
 }
 
 .ori__navbar-links {
@@ -58,8 +77,14 @@
 .ori__navbar-contact {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: baseline;
     padding: 0;
+}
+
+.ori__navbar-contact span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ori__navbar-contact p {
@@ -67,6 +92,13 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
+    padding: 0;
+}
+
+.ori__navbar-links_container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0;
 }
 
@@ -151,7 +183,7 @@
 
 @media screen and (max-width: 700px) {
     .ori__navbar {
-        padding: 2rem 4rem;
+        padding: 0.6rem 4rem;
     }
 }
 
