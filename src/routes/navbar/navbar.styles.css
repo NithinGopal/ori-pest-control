@@ -14,10 +14,11 @@
     display: flex;
     align-self: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 5px;
 }
 
 .ori__banner-call {
+    justify-self: left;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,6 +185,11 @@
 @media screen and (max-width: 700px) {
     .ori__navbar {
         padding: 0.6rem 4rem;
+    }
+    .ori__banner {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 }
 

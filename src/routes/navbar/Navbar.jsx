@@ -15,7 +15,7 @@ const Navbar = () => {
     <>
       <div className='ori__banner'>
         <div className='ori__banner-location'>
-          <MdLocationOn size={20} />
+          <MdLocationOn size={20} color='#f2571c' />
           <p>NELLORE / VIJAYAWADA</p>
         </div>
         <div className='ori__banner-call'>
