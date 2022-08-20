@@ -40,8 +40,8 @@ const Navbar = () => {
         <div className='ori__navbar-contact'>
           {/* <a href="tel:+919100094789"><p><span><MdPhoneInTalk /></span>9100094789</p></a> */}
           {/* <button type='button'>Chat</button> */}
-          <a href="tel:+919100094789"><button type='button'>Call Now</button></a>
-          <Link to='/contact-page'><button type='button'>Get Quote</button></Link>
+          <a href="tel:+919100094789"><button className='call-btn' type='button'>Call Now</button></a>
+          <Link to='/contact-page'><button className='quote-btn' type='button'>Get Quote</button></Link>
         </div>
         <div className='ori__navbar-menu'>
           {toggleMenu 
@@ -54,8 +54,8 @@ const Navbar = () => {
               <div className='ori__navbar-menu_container-links'>
                 <NavMenu />
                 <div className='ori__navbar-menu_container-links-contact'>
-                  <a href="tel:+919100094789"><button type='button'>Call Now</button></a>
-                  <Link to='/contact-page'><button type='button'>Get Quote</button></Link>
+                  <a href="tel:+919100094789"><button className='call-btn' type='button'>Call Now</button></a>
+                  <Link to='/contact-page'><button className='quote-btn' type='button'>Get Quote</button></Link>
                 </div>
               </div>
             </div>
