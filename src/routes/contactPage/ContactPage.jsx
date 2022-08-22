@@ -3,6 +3,7 @@ import { FaFacebook, FaWhatsapp, FaYoutube, FaLinkedin, FaInstagram } from 'reac
 import ContactForm from '../../containers/contactForm/ContactForm'
 import cpHero from '../../assets/contact-page/contact-page-hero.png'
 import './contactPage.styles.css'
+import FormikContainer from '../../containers/formikForm/FormikContainer'
 
 const ContactPage = () => {
   return (
@@ -34,7 +35,9 @@ const ContactPage = () => {
           </p>
         </div>
         <div className='ori__contactPage-contact_form'>
-         <ContactForm />
+         {/* <ContactForm /> */}
+
+         <FormikContainer />
         </div>
       </div>
     </div>

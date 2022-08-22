@@ -1,0 +1,58 @@
+label {
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  input + label {
+    font-weight: bold;
+    display: inline-flex;
+    margin-right: 20px;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  textarea,
+  select {
+    display: block;
+    /* width: 400px; */
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* margin-bottom: 20px; */
+  }
+  
+  select {
+    width: 100%;
+  }
+
+  .checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-weight: 600;
+  } 
+
+  .checkbox input {
+    width: 25px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: red;
+  }

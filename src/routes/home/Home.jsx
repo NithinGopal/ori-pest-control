@@ -10,6 +10,7 @@ import CallToAction from '../../containers/callToAction/CallToAction'
 import Guarantee from '../../containers/guarantee/Guarantee'
 import Footer from '../../containers/footer/Footer'
 import './home.styles.css'
+import Team from '../../containers/team/Team'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       {/* <Reviews /> */}
       {/* <Blog /> */}
       <FAQ />
+      {/* <Team /> */}
       <CallToAction />
       <Guarantee />
       {/* <Footer /> */}
