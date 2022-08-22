@@ -75,3 +75,29 @@
     margin-left: 2rem;
 }
 
+@media screen and (max-width: 880px) {
+    .ori__contactPage-hero_content {
+        display: none;
+    }
+    .ori__contactPage-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .ori__contactPage-contact_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ori__contactPage-contact_form h2 {
+        color: var(--color-heading);
+        margin: 0;
+    }
+}
+

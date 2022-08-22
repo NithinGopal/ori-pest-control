@@ -36,7 +36,7 @@ const ContactPage = () => {
         </div>
         <div className='ori__contactPage-contact_form'>
          {/* <ContactForm /> */}
-
+         <h2>Contact Us</h2>
          <FormikContainer />
         </div>
       </div>
