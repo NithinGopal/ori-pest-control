@@ -80,6 +80,7 @@
         display: none;
     }
     .ori__contactPage-contact {
+        padding: 2rem 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -93,6 +94,10 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .ori__contactPage-contact_form {
+        margin: 0;
     }
 
     .ori__contactPage-contact_form h2 {
