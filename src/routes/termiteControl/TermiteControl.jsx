@@ -50,7 +50,7 @@ const TermiteControl = () => {
           <div className='ori__termiteControl-science_content-heading'>
             <p>THE SCIENCE</p>
             <h1>How much of a risk are termites?</h1>
-            <Link to='/'>Risk & Damage <span><FiArrowRight size={20} /></span></Link>
+            <Link to='/risk-damage'>Risk & Damage <span><FiArrowRight size={20} /></span></Link>
           </div>
           <div className='ori__termiteControl-science_content-cards'>
             <TCScienceCard 

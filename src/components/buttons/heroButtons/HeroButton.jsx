@@ -1,5 +1,5 @@
 import React from 'react'
-import { ImBug } from 'react-icons/im'
+// import { ImBug } from 'react-icons/im'
 import './heroButton.styles.css'
 
 const HeroButton = ({ icon, text, onClick}) => {

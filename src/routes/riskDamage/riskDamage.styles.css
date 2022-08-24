@@ -1,0 +1,75 @@
+.ori__risk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 6rem;
+}
+
+.ori__risk-hero {
+    display: flex;
+}
+
+.ori__risk-hero_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.ori__risk-hero_img {
+    display: flex;
+    padding-bottom: 8rem 0;
+}
+
+.ori__risk-hero_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.ori__risk-threats {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.ori__risk-signs {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.ori__risk-support {
+    display: flex;
+
+    padding: 2rem 0;
+}
+
+.ori__risk-support_img {
+    display: flex;
+}
+
+.ori__risk-support_img img {
+    width: 100%;
+}
+
+.ori__risk-damage_content {
+    display: flex;
+}
+
+.ori__risk-fix {
+    display: flex;
+    flex-flow: column wrap;
+
+    padding: 2rem 0;
+}
+
+.ori__risk-tackle {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 2rem 0;
+}
+
+.ori__risk-tackle_content {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 2rem;
+}

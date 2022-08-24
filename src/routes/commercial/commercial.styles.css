@@ -1,0 +1,60 @@
+.ori__commercial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem 6rem;
+}
+
+.ori__commercial-hero {
+    position: relative;
+}
+
+.ori__commercial-hero_content {
+    position: absolute;
+
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.ori__commercial-hero_img {
+    display: flex;
+}
+
+.ori__commercial-hero_img img {
+    width: 100%;
+}
+
+.ori__commmercial-expert {
+    display: flex;
+    flex-direction: column;
+}
+
+.ori__commercial-expert_badges {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ori__commercial-expert_badges-badge {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.ori__commercial-expert_badges-badge img {
+    width: 60px;
+    height: 60px;
+}
+
+.ori__commercial-coverage {
+    display: flex;
+}
+
+.ori__commercial-coverage_img {
+    display: flex;
+}
+
+.ori__commercial-coverage_img img {
+    width: 100%;
+}
