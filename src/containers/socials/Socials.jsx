@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaFacebook, FaWhatsapp, FaYoutube, FaLinkedin, FaInstagram } from 'react-icons/fa'
-
+import './socials.styles.css'
 const Socials = () => {
   return (
     <div className='ori__socials'>

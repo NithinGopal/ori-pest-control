@@ -3,20 +3,51 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem 6rem;
+    padding: 2rem 6rem;
+
+    font-family: var(--font-family);
 }
 
 .ori__risk-hero {
     display: flex;
+    gap: 2rem;
 }
 
 .ori__risk-hero_content {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: stretch;
+    gap: 2rem;
+
+}
+
+.ori__risk-hero_content h1 {
+    color: var(--color-heading);
+}
+
+.ori__risk-hero_content p {
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+.ori__risk-hero_content-socials {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ori__risk-hero_content-socials h3 {
+    color: var(--color-heading);
+}
+
+.ori__risk-hero_content-socials a {
+    margin-right: 2rem;
+    color: var(--color-text);
 }
 
 .ori__risk-hero_img {
+    flex: 1;
     display: flex;
     padding-bottom: 8rem 0;
 }
@@ -28,48 +59,343 @@
 
 .ori__risk-threats {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     padding: 2rem 0;
+}
+
+.ori__risk-threats_paras {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    font-weight: 600;
+}
+
+.ori__risk-threats_paras p:first-child {
+    color:brown;
+}
+
+.ori__risk-threats_paras h1 {
+    color: var(--color-heading)
+}
+
+.ori__risk-threats_paras p:last-child{
+    font-size: 1.1rem;
+    color: var(--color-text);
+}
+
+.ori__risk-threats_list {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ori__risk-threats_list h2 {
+    color: var(--color-heading);
+}
+
+.ori__risk-threats_list {
+    color: var(--color-text);
+    font-weight: 600;
+}
+.ori__risk-threats_list ul {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    list-style: none;
+    font-weight: 600;
+}
+
+.ori__risk-threats_list li::before {
+    content: '\2022';
+    font-weight: 900;
+    color: var(--color-heading);
+    margin-right: 1rem;
 }
 
 .ori__risk-signs {
     display: flex;
     flex-flow: column wrap;
+    gap: 1rem;
+}
+
+.ori__risk-signs h1 {
+    color: var(--color-heading);
+}
+
+.ori__risk-signs p {
+    color: var(--color-text);
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 1.2;
 }
 
 .ori__risk-support {
     display: flex;
-
+    gap: 2rem;
     padding: 2rem 0;
 }
 
 .ori__risk-support_img {
+    flex: 1.2;
     display: flex;
+}
+
+.ori__risk-support_content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ori__risk-support_content h1 {
+    color: var(--color-heading);
+}
+
+.ori__risk-support_content p {
+    color: brown;
+    font-weight: 600;
+}
+
+.ori__risk-support_content p:last-child {
+    color: var(--color-text);
 }
 
 .ori__risk-support_img img {
     width: 100%;
 }
 
+.ori__risk-damage {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    gap: 2rem;
+}
+
+.ori__risk-damage_heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.ori__risk-damage_heading p {
+    color: brown;
+    font-weight: 600;
+}
+
+.ori__risk-damage_heading h1 {
+    color: var(--color-heading);
+}
+
 .ori__risk-damage_content {
     display: flex;
+    gap: 2rem;
+}
+
+.ori__risk-damage_content-list {
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ori__risk-damage_content-list h2 {
+    color: var(--color-heading);
+}
+
+.ori__risk-damage_content-list p {
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+.ori__risk-damage_content-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    list-style: none;
+    font-weight: 600;
+}
+
+.ori__risk-damage_content-list li {
+    color: var(--color-text);
+}
+
+.ori__risk-damage_content-list li::before {
+    content: '\2022';
+    font-weight: 900;
+    color: var(--color-heading);
+    margin-right: 1rem;
+}
+
+.ori__risk-damage_content-paras {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--color-text);
+    line-height: 1.5;
+    letter-spacing: 1.2;
+    font-weight: 600;
 }
 
 .ori__risk-fix {
     display: flex;
     flex-flow: column wrap;
-
+    gap: 1rem;
     padding: 2rem 0;
+}
+
+.ori__risk-fix h1 {
+    color: var(--color-heading);
+}
+
+.ori__risk-fix p {
+    color: var(--color-text);
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 1.2;
 }
 
 .ori__risk-tackle {
     display: flex;
     flex-flow: column wrap;
+    gap: 1rem;
     padding: 2rem 0;
+}
+
+.ori__risk-tackle h2, h1 {
+    color: var(--color-heading);
+}
+
+.ori__risk-tackle p {
+    color: var(--color-text);
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 1.2;
+}
+
+.ori__risk-tackle_heading p {
+    color: brown;
 }
 
 .ori__risk-tackle_content {
     display: flex;
     flex-flow: column wrap;
     gap: 2rem;
+}
+
+.ori__risk-tackle_content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    list-style: none;
+    font-weight: 600;
+}
+
+.ori__risk-tackle_content li {
+    color: var(--color-text);
+}
+
+.ori__risk-tackle_content li::before {
+    content: '\2022';
+    font-weight: 900;
+    color: var(--color-heading);
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 960px) {
+    .ori__risk {
+        padding: 2rem 0;
+    }
+    .ori__risk-hero {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ori__risk-hero_content {
+        padding: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ori__risk-threats {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem 4rem;
+    }
+
+    .ori__risk-threats_list {
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+    .ori__risk-signs {
+        padding: 2rem 4rem;
+        text-align: center;
+    }
+
+    .ori__risk-support {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ori__risk-support_content {
+        padding: 2rem 4rem;
+        text-align: center;
+    }
+
+    .ori__risk-damage {
+        padding: 2rem 4rem;
+        text-align: center;
+    }
+
+    .ori__risk-damage_heading {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ori__risk-damage_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ori__risk-damage_content-list {
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+    .ori__risk-fix {
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    .ori__risk-tackle {
+        padding: 2rem 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ori__risk-tackle_content ul {
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
 }

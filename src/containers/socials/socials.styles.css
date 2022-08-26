@@ -1,19 +1,25 @@
 .ori__socials {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 2rem;
+}
+
+.ori__socials-heading {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .ori__socials-heading h3 {
     color: var(--color-heading);
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
+
 .ori__socials-links {
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 2rem;
 }
+

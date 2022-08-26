@@ -3,9 +3,10 @@ import { FaFacebook, FaWhatsapp, FaYoutube, FaLinkedin, FaInstagram } from 'reac
 
 import './riskDamage.styles.css'
 
-import riskHero from '../../assets/riskDamage-img/riskHero.png'
+import riskHero from '../../assets/riskDamage-img/ppe-house-office.png'
 import riskSupport from '../../assets/riskDamage-img/riskDamageExpert.png'
 import Connect from '../../containers/connect/Connect'
+import Socials from '../../containers/socials/Socials'
 
 const RiskDamage = () => {
     const keyPoints = [
@@ -30,11 +31,7 @@ const RiskDamage = () => {
                     can be complicated and costly. So catching the infestation early is important.
                 </p>
                 <div className='ori__risk-hero_content-socials'>
-                    <a href='https://www.facebook.com/oripestservice' target='_blank' rel="noreferrer"><FaFacebook size={24} /></a>
-                    <a href='https://wa.me/message/RE3RCGX3NMFDP1' target='_blank' rel="noreferrer"><FaWhatsapp size={24} /></a>
-                    <a href='https://youtube.com/channel/UCDck-_3SmiS36pUmOSV22Gw' target='_blank' rel="noreferrer"><FaYoutube size={24} /></a>
-                    <a href='https://www.linkedin.com/in/ori-pest-cop-372175218' target='_blank' rel="noreferrer"><FaLinkedin size={24} /></a>
-                    <a href="https://www.instagram.com/oripestcop/" target='_blank' rel="noreferrer"><FaInstagram size={24} /></a>
+                    <Socials />
                 </div>
             </div>
             <div className='ori__risk-hero_img'>
@@ -94,7 +91,7 @@ const RiskDamage = () => {
                 <div className='ori__risk-support_img'>
                     <img src={riskSupport} alt="risk-support" />
                 </div>
-                <div className='ori__risk-content'>
+                <div className='ori__risk-support_content'>
                     <p>EXPERT SUPPORT</p>
                     <h1>Treating the Damage</h1>
                     <p>
