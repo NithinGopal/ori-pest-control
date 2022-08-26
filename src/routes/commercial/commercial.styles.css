@@ -9,13 +9,25 @@
 
 .ori__commercial-hero {
     position: relative;
+    display: flex;
 }
 
 .ori__commercial-hero_content {
     position: absolute;
+    top: 4rem;
+    left: 4rem;
 
+    max-width: 30rem ;
     display: flex;
     flex-flow: column wrap;
+    gap: 1rem;
+    
+    font-family: var(--font-family);
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: var(--color-heading);
+    line-height: 1.2;
+    letter-spacing: 1.2px;
 }
 
 .ori__commercial-hero_img {
@@ -57,4 +69,42 @@
 
 .ori__commercial-coverage_img img {
     width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+    .ori__commercial-hero_content {
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+        font-size: 1rem;
+        line-height: 1.1;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .ori__commercial {
+        padding: 0;
+    }
+    .ori__commercial-hero_content {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        font-size: 1.2rem;
+        /* line-height: 0.8;
+        letter-spacing: 0.8px; */
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    .ori__commercial-hero_content {
+
+        position: absolute;
+        top: 1.5rem;
+        left: 1.5rem;
+        font-size: 1rem;
+        line-height: 1.1;
+        /* letter-spacing: 0.8px; */
+    }
 }
