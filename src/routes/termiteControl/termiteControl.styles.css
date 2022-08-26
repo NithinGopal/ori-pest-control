@@ -7,7 +7,7 @@
 .ori__termiteControl-title {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 2rem;
     gap: 2rem;
 }
@@ -69,11 +69,12 @@
 
 .ori__termiteControl-hero {
     position: relative;
+    overflow: hidden;
 }
 
 .ori__termiteControl-hero img {
     width: 100%;
-    height: 100%;
+    height: 600px;
 }
 
 .ori__termiteControl-hero_heading {
@@ -85,6 +86,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    gap: 2rem;
     width: 50%;
 
     font-family: var(--font-family);
@@ -92,10 +94,12 @@
 
 .ori__termiteControl-hero_heading h1 {
     color: var(--color-heading);
+    font-size: 2.5rem;
 }
 
 .ori__termiteControl-hero_heading p {
     color: var(--color-text);
+    font-size: 1.1rem;
     font-weight: 600;
     text-align: left;
 }
@@ -150,10 +154,11 @@
 }
 
 .ori__termiteControl-science_contact {
-    flex: 0.6;
+    flex: 0.8;
     /* background: rgb(189, 183, 183); */
-    padding: 2rem rem 2rem 1rem;
+    /* padding: 2rem rem 2rem 1rem; */
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: stretch;
     align-items: flex-start;
@@ -197,8 +202,8 @@
 
 .ori__termiteControl-science_contact-img {
     display: flex;
-    max-width: 250px;
-    max-height: 250px;
+    /* max-width: 350px;
+    max-height: 250px; */
     margin-top: 2rem;
 }
 
@@ -283,7 +288,8 @@
         align-items: center;
     }
 
-    .ori__termiteControl-hero_heading {
+
+    /* .ori__termiteControl-hero_heading {
         position: static;
         text-align: center;
         display: flex;
@@ -293,10 +299,15 @@
         width: 100%;
 
         padding: 2rem 0;
-    }
-    .ori__termiteControl-hero_heading p {
+    } */
+    /* .ori__termiteControl-hero_heading p {
         text-align: center;
         padding: 1rem 4rem;
+    } */
+
+    .ori__termiteControl-science {
+        padding: 2rem;
+        gap: 2rem;
     }
 }
 
@@ -319,4 +330,50 @@
     .ori__termiteControl-custom_content p {
         text-align: center;
     }
+
+    .ori__termiteControl-science h1 {
+        font-size: 1.5rem;
+    }
+
+    .ori__termiteControl-science_contact a {
+        font-size: 1rem;
+    }
+
+    .ori__termiteControl-science_contact h2 {
+        font-size: 1.1rem;
+    }
 }
+
+@media screen and (max-width: 450px) {
+    .ori__termiteControl-science {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ori__termiteControl-science_content-heading {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ori__termiteControl-science_content-cards {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0;
+    }
+
+    .ori__termiteControl-science_contact {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
