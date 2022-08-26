@@ -20,6 +20,7 @@ import guarantee from '../../assets/guarantee-nobg.png'
 import './pestControl.styles.css'
 import Approach from '../../containers/approach/Approach'
 import FAQ from '../../containers/faq/FAQ'
+import { pestFaq } from '../../assets/textContent/faqContent'
 import Connect from '../../containers/connect/Connect'
 
 const PestControl = () => {
@@ -103,7 +104,7 @@ const PestControl = () => {
       <div className='ori__pestControl-approach'>
         <Approach />
       </div>
-      <FAQ />
+      <FAQ faqContent={pestFaq} />
       <div className='ori__pestControl-contact'>
         <Connect />
       </div>

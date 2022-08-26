@@ -1,6 +1,7 @@
 import React from 'react'
 import { FiPhoneCall } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
+import Socials from '../socials/Socials'
 import './connect.styles.css'
 
 const Connect = () => {
@@ -18,6 +19,9 @@ const Connect = () => {
           <h2>Get a Personalized Quote</h2>
           <p>We will help you find the right treatment plan for your home.</p>
           <Link to='/contact-page'><button>Get Free Quote</button></Link>
+        </div>
+        <div className='ori__termiteControl-connect_socials'>
+          <Socials />
         </div>
     </div>
   )

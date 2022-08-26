@@ -6,6 +6,7 @@ import Connect from '../../containers/connect/Connect'
 import commHero from '../../assets/commercial-imgs/commercial-hero.png'
 import commCover from '../../assets/commercial-imgs/commercial-trust-ppe-suit1.png'
 import { experts } from './experts'
+import { commercialFaq } from '../../assets/textContent/faqContent'
 import './commercial.styles.css'
 
 const Commercial = () => {
@@ -20,7 +21,7 @@ const Commercial = () => {
                 <img src={commHero} alt="comm-hero" />
             </div>
         </div>
-        <div className='ori__commmercial-expert'>
+        <div className='ori__commercial-expert'>
             <div className='ori__commercial-expert_content'>
                 <p>INDUSTRY EXPERTISE</p>
                 <h1>Setting the gold standard in commercial pest control</h1>
@@ -52,7 +53,7 @@ const Commercial = () => {
             </div>
         </div>
         <div className='ori__Commercial-FAQ'>
-            <FAQ />
+            <FAQ faqContent={commercialFaq} />
         </div>
         <div className='Ori__commercial_contact'>
             <Connect />

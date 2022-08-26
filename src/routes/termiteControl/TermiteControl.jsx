@@ -9,6 +9,7 @@ import house from '../../assets/termite-control/house.png'
 import Approach from '../../containers/approach/Approach'
 import custom from '../../assets/termite-control/custom-plan.png'
 import FAQ from '../../containers/faq/FAQ'
+import { termiteFaq } from '../../assets/textContent/faqContent'
 import Connect from '../../containers/connect/Connect'
 import TCScienceCard from '../../components/termiteControlCard/TCScienceCard'
 import { Link } from 'react-router-dom'
@@ -97,7 +98,7 @@ const TermiteControl = () => {
           <p>Every home is unique, and so are our termite treatments for you and yours.</p>
         </div>
       </div>
-      <FAQ />
+      <FAQ faqContent={termiteFaq} />
       <Connect />
     </div>
   )

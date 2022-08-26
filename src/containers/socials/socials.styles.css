@@ -1,0 +1,19 @@
+.ori__socials {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.ori__socials-heading h3 {
+    color: var(--color-heading);
+    padding-bottom: 2rem;
+}
+
+.ori__socials-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}

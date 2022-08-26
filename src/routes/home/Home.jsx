@@ -9,6 +9,7 @@ import FAQ from '../../containers/faq/FAQ'
 import CallToAction from '../../containers/callToAction/CallToAction'
 import Guarantee from '../../containers/guarantee/Guarantee'
 import Footer from '../../containers/footer/Footer'
+import { homeFaq } from '../../assets/textContent/faqContent'
 import './home.styles.css'
 import Team from '../../containers/team/Team'
 
@@ -21,7 +22,7 @@ const Home = () => {
       <Features />
       {/* <Reviews /> */}
       {/* <Blog /> */}
-      <FAQ />
+      <FAQ faqContent={homeFaq} />
       {/* <Team /> */}
       <CallToAction />
       <Guarantee />
