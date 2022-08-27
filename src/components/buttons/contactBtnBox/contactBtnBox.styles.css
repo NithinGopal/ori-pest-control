@@ -1,0 +1,31 @@
+.ori__contactBtnBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 2rem;
+}
+
+.ori__contactBtnBox-call {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.ori__contactBtnBox-quote {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1050px) {
+    .ori__contactBtnBox-call {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

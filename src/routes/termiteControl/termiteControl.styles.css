@@ -342,6 +342,10 @@
     .ori__termiteControl-science_contact h2 {
         font-size: 1.1rem;
     }
+
+    .ori__termiteControl-connect_form a {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -372,6 +376,11 @@
     .ori__termiteControl-science_contact {
         display: flex;
         flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ori__termiteControl-connect_form {
         justify-content: center;
         align-items: center;
     }

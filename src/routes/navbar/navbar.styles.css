@@ -50,7 +50,7 @@
 .ori__navbar-links_logo {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 
 }
 
@@ -72,6 +72,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
     gap: 2rem;
     padding-left: 4rem;
 }
@@ -101,6 +102,10 @@
     justify-content: center;
     align-items: center;
     padding: 0;
+}
+
+.ori__navbar-links_container a {
+    width: max-content;
 }
 
 .ori__navbar-links_container,
@@ -142,6 +147,10 @@
     background: #FF4820;
 }
 
+.ori__navbar-contact a {
+    width: fit-content;
+}
+
 .ori__navbar-contact .call-btn,
 .ori__navbar-menu_container .call-btn {
     background: var(--color-chatbtn);
@@ -152,6 +161,7 @@
 
     display: none;
     position: relative;
+    z-index: 1;
 }
 
 .ori__navbar-menu svg {

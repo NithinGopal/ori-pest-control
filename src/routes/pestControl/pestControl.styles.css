@@ -38,7 +38,10 @@
 
 .ori__pestControl-hero_content-socials {
     display: flex;
-    justify-content: space-evenly;
+}
+
+.ori__pestControl-hero_content-socials .ori__socials-links {
+    gap: 2rem;
 }
 
 .ori__pestControl-problem {

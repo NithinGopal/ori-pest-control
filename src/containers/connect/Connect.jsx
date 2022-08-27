@@ -21,7 +21,7 @@ const Connect = () => {
           <Link to='/contact-page'><button>Get Free Quote</button></Link>
         </div>
         <div className='ori__termiteControl-connect_socials'>
-          <Socials />
+          <Socials size='24' />
         </div>
     </div>
   )

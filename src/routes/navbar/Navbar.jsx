@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { motion } from 'framer-motion'
 import { Link, Outlet } from 'react-router-dom'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import { MdPhoneInTalk, MdLocationOn } from 'react-icons/md'
@@ -7,6 +8,17 @@ import Footer from '../../containers/footer/Footer'
 
 import logo from '../../assets/navicon-nobg.png'
 import './navbar.styles.css'
+import ContactBtn from '../../components/buttons/contactBtn/ContactBtn'
+import QuoteBtn from '../../components/buttons/quoteBtn/QuoteBtn'
+
+const navLinkVariants = {
+  hover: {
+    scale: 1.1,
+  },
+  click: {
+    scale: 0.8,
+  }
+}
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -28,20 +40,38 @@ const Navbar = () => {
       <div className='ori__navbar'>
         <div className='ori__navbar-links'>
           <Link to='/'>
-            <div className='ori__navbar-links_logo'>
+            <motion.div variants={navLinkVariants} whileHover='hover' whileTap='click' className='ori__navbar-links_logo'>
               <img src={logo} alt='logo' />
               {/* <p>Ori Pest Cop</p> */}
-            </div>
+            </motion.div>
           </Link>
         </div>
         <div className='ori__navbar-links_container'>
           <NavMenu />
         </div>
         <div className='ori__navbar-contact'>
-          {/* <a href="tel:+919100094789"><p><span><MdPhoneInTalk /></span>9100094789</p></a> */}
-          {/* <button type='button'>Chat</button> */}
-          <a href="tel:+919100094789"><button className='call-btn' type='button'>Call Now</button></a>
-          <Link to='/contact-page'><button className='quote-btn' type='button'>Get Quote</button></Link>
+          <a href="tel:+919100094789">
+            <motion.button 
+              className='call-btn' 
+              type='button' 
+              variants={navLinkVariants} 
+              whileHover='hover' 
+              whileTap='click'
+            >
+              Call Now
+            </motion.button>
+          </a>
+          <Link to='/contact-page'>
+            <motion.button 
+              className='quote-btn' 
+              type='button' 
+              variants={navLinkVariants} 
+              whileHover='hover' 
+              whileTap='click'
+            >
+              Get Quote
+            </motion.button>
+          </Link>
         </div>
         <div className='ori__navbar-menu'>
           {toggleMenu 
@@ -56,6 +86,8 @@ const Navbar = () => {
                 <div className='ori__navbar-menu_container-links-contact'>
                   <a href="tel:+919100094789"><button className='call-btn' type='button'>Call Now</button></a>
                   <Link to='/contact-page'><button className='quote-btn' type='button'>Get Quote</button></Link>
+                  {/* <ContactBtn />
+                  <QuoteBtn /> */}
                 </div>
               </div>
             </div>

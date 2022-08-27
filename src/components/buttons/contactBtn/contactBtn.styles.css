@@ -1,0 +1,33 @@
+.ori__contactBtn {
+    flex: 1;
+    
+    /* margin: 1rem; */
+    width: 100%;
+}
+
+.ori__contactBtn button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.2rem 2rem;
+    color: var(--body-bg);
+    background-color: var(--color-chatbtn);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 600;
+
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.ori__contactBtn a {
+    text-decoration: none;
+    display: flex;
+}
+
+.ori__contactBtn p {
+    padding: 0;
+}
