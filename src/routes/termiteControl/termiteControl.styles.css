@@ -384,5 +384,9 @@
         justify-content: center;
         align-items: center;
     }
+
+    .ori__termiteControl-custom_content {
+        padding: 2rem;
+    }
 }
 

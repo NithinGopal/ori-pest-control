@@ -37,3 +37,13 @@
     text-align: left;
     padding: 0;
 }
+
+@media screen and (max-width: 450px) {
+    .ori__termiteControl-science_content-cards_card {
+        align-items: center;
+    }
+
+    .ori__termiteControl-science_content-cards_card p {
+        text-align: center;
+    }
+}
