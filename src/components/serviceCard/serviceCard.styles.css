@@ -32,4 +32,6 @@
     font-size: 14px;
     color: var(--color-footer);
     cursor: pointer;
+    text-align: center;
 }
+
