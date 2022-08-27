@@ -52,6 +52,7 @@
 
         justify-content: center;
         align-items: center;
+        padding: 1rem 2rem;
     }
 
     .ori__termiteControl-approach_content {
@@ -69,6 +70,10 @@
     }
 
     .ori__termiteControl-approach_content-card p {
+        text-align: center;
+    }
+
+    .ori__termiteControl-approach_heading {
         text-align: center;
     }
 }

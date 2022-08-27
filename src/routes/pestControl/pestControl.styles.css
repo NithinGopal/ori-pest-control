@@ -177,7 +177,7 @@
     }
     
     .ori__pestControl-hero_content h5 {
-        color: green;
+        color: var(--body-bg);
         font-size: 20px;
         padding-bottom: 1rem;
     }
@@ -185,6 +185,11 @@
     .ori__pestControl-hero_content h1 {
         font-size: 32px;
         padding-bottom: 2rem;
+        color: var(--body-bg);
+    }
+
+    .ori__pestControl-hero_content .ori__socials-heading h3 {
+        color: var(--body-bg);
     }
 
     .ori__pestControl-problem {
@@ -200,6 +205,7 @@
         align-items: center;
         text-align: center;
         gap: 2rem;
+        padding: 1rem;
     }
     
     .ori__pestControl-problem p {
@@ -236,6 +242,25 @@
     }
 
     .ori__pestControl-contact {
-        padding: 2rem 4rem;
+        padding: 2rem;
+    }
+
+    .ori__pestControl-approach {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .ori__pestControl-hero_content {
+        top: 40px;
+        left: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .ori__pestControl-hero_content h1, h5 {
+        font-size: 1rem;
+        color: var(--body-bg);
+        text-align: left;
     }
 }

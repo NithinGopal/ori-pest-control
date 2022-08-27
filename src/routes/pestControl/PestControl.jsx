@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp, FaYoutube } from 'react-icons/fa'
+// import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp, FaYoutube } from 'react-icons/fa'
 import ServiceCard from '../../components/serviceCard/ServiceCard'
 
 import termite from '../../assets/servicesAssets/termite-gr.png'
@@ -50,11 +50,6 @@ const PestControl = () => {
           <h5>ORI PEST COP</h5>
           <h1>Pest Control</h1>
           <div className='ori__pestControl-hero_content-socials'>
-            {/* <a href='https://www.facebook.com/oripestservice' target='_blank' rel="noreferrer"><FaFacebook size={24} /></a>
-            <a href='https://wa.me/message/RE3RCGX3NMFDP1' target='_blank' rel="noreferrer"><FaWhatsapp size={24} /></a>
-            <a href='https://youtube.com/channel/UCDck-_3SmiS36pUmOSV22Gw' target='_blank' rel="noreferrer"><FaYoutube size={24} /></a>
-            <a href='https://www.linkedin.com/in/ori-pest-cop-372175218' target='_blank' rel="noreferrer"><FaLinkedin size={24} /></a>
-            <a href="https://www.instagram.com/oripestcop/" target='_blank' rel="noreferrer"><FaInstagram size={24} /></a> */}
             <Socials size='32' />
           </div> 
         </div>
@@ -76,13 +71,6 @@ const PestControl = () => {
       <div className='ori__pestControl-services'>
         <h1>SERVICES</h1>
         <div className='ori__pestControl-services_serviceCards'>
-          {/* <ServiceCard image={termite} name='Termite' route='/termitecontrol' />
-          <ServiceCard image={bedbug} name='Bed Bugs' route='/pestcontrol' />
-          <ServiceCard image={ticks} name='Ticks' route='/pestcontrol' />
-          <ServiceCard image={rat} name='Rats/Mice' route='/pestcontrol' />
-          <ServiceCard image={cockroach} name='Cockroach' route='/pestcontrol' />
-          <ServiceCard image={spider} name='Spiders' route='/pestcontrol' />
-          <ServiceCard image={ant} name='Bed Bugs' route='/pestcontrol' /> */}
           {
             pestItems.map(pestItem => (
               <ServiceCard image={pestItem.pestImg} name={pestItem.name} route='/pest-control' />
