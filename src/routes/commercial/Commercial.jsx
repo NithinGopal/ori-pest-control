@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import FAQ from '../../containers/faq/FAQ'
 import Connect from '../../containers/connect/Connect'
+import QuoteBtn from '../../components/buttons/quoteBtn/QuoteBtn'
 
 import commHero from '../../assets/commercial-imgs/commercial-hero.png'
 import commCover from '../../assets/commercial-imgs/commercial-trust-ppe-suit1.png'
@@ -15,7 +16,8 @@ const Commercial = () => {
         <div className='ori__commercial-hero'>
             <div className='ori__commercial-hero_content'>
                 <h1>THE <span>MOST TRUSTED</span> PEST CONTROL ACROSS ALL INDUSTRIES</h1>
-                <Link to='/contact-page'><button type='button'>Get a Free Quote</button></Link>
+                {/* <Link to='/contact-page'><button type='button'>Get a Free Quote</button></Link> */}
+                <QuoteBtn />
             </div>
             <div className='ori__commercial-hero_img'>
                 <img src={commHero} alt="comm-hero" />

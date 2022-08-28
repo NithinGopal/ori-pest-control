@@ -12,6 +12,10 @@
 }
 
 .ori__pestControl-hero_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     position: absolute;
     top: 200px;
     left: 100px;
@@ -34,10 +38,12 @@
 .ori__pestControl-hero_content h1 {
     font-size: 64px;
     padding-bottom: 2rem;
+    color: green;
 }
 
 .ori__pestControl-hero_content-socials {
     display: flex;
+    justify-content: flex-start;
 }
 
 .ori__pestControl-hero_content-socials .ori__socials-links {
@@ -177,7 +183,7 @@
     }
     
     .ori__pestControl-hero_content h5 {
-        color: var(--body-bg);
+        /* color: var(--body-bg); */
         font-size: 20px;
         padding-bottom: 1rem;
     }
@@ -185,7 +191,7 @@
     .ori__pestControl-hero_content h1 {
         font-size: 32px;
         padding-bottom: 2rem;
-        color: var(--body-bg);
+        /* color: var(--body-bg); */
     }
 
     .ori__pestControl-hero_content .ori__socials-heading h3 {
@@ -259,8 +265,16 @@
         flex-direction: column;
     }
     .ori__pestControl-hero_content h1, h5 {
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: var(--body-bg);
         text-align: left;
+    }
+
+    .ori__pestControl-hero_content-socials .ori__socials svg {
+        scale: 0.8;
+    }
+
+    .ori__pestControl-hero_content-socials .ori__socials h3 {
+        font-size: 0.8rem;
     }
 }

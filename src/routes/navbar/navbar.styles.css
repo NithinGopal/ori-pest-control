@@ -246,5 +246,12 @@
     .ori__navbar-menu_container-links-contact button {
         width: 100%;
         font-size: 1rem;
+    } 
+
+    .ori__banner-location {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

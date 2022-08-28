@@ -7,6 +7,7 @@ import Reviews from '../../containers/reviews/Reviews'
 import Blog from '../../containers/blog/Blog'
 import FAQ from '../../containers/faq/FAQ'
 import CallToAction from '../../containers/callToAction/CallToAction'
+import Connect from '../../containers/connect/Connect'
 import Guarantee from '../../containers/guarantee/Guarantee'
 import Footer from '../../containers/footer/Footer'
 import { homeFaq } from '../../assets/textContent/faqContent'
@@ -24,7 +25,10 @@ const Home = () => {
       {/* <Blog /> */}
       <FAQ faqContent={homeFaq} />
       {/* <Team /> */}
-      <CallToAction />
+      {/* <CallToAction /> */}
+      <div className='ori__home-connect'>
+        <Connect />
+      </div>
       <Guarantee />
       {/* <Footer /> */}
     </>
