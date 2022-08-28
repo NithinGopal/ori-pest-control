@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
+import { imageVariants } from '../../assets/imageVariants'
 import FAQ from '../../containers/faq/FAQ'
 import Connect from '../../containers/connect/Connect'
 import QuoteBtn from '../../components/buttons/quoteBtn/QuoteBtn'
@@ -20,7 +22,7 @@ const Commercial = () => {
                 <QuoteBtn />
             </div>
             <div className='ori__commercial-hero_img'>
-                <img src={commHero} alt="comm-hero" />
+                <motion.img variants={imageVariants} initial='hidden' animate='visible' src={commHero} alt="comm-hero" />
             </div>
         </div>
         <div className='ori__commercial-expert'>
@@ -40,7 +42,7 @@ const Commercial = () => {
             </div>
             <div className='ori__commercial-coverage'>
                 <div className='ori__commercial-coverage_img'>
-                    <img src={commCover} alt="comm-coverage" />
+                    <motion.img variants={imageVariants} initial='hidden' animate='visible' src={commCover} alt="comm-coverage" />
                 </div>
                 <div className='ori__commercial-coverage_content'>
                     <p>COVERAGE YOU CAN TRUST</p>

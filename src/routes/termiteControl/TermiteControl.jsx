@@ -1,4 +1,6 @@
 import React from 'react'
+import { motion } from 'framer-motion'
+import { imageVariants } from '../../assets/imageVariants'
 import './termiteControl.styles.css'
 import hero from '../../assets/termite-control/tc-hero.png'
 import pipe from '../../assets/termite-control/water-pipe.png'
@@ -37,7 +39,7 @@ const TermiteControl = () => {
         </div>
       </div>
       <div className='ori__termiteControl-hero'>
-        <img src={hero} alt='hero' />
+        <motion.img variants={imageVariants} initial='hidden' animate='visible' src={hero} alt='hero' />
         <div className='ori__termiteControl-hero_heading'>
           <h1>Home is where the termites aren't.</h1>
           <p>
@@ -83,14 +85,14 @@ const TermiteControl = () => {
           <a href="tel:+91-9100094789">+91-9100094789</a> <span>Or</span>
           <button>GET A FREE QUOTE</button>
           <div className='ori__termiteControl-science_contact-img'>
-            <img src={house} alt="house" />
+            <motion.img variants={imageVariants} initial='hidden' animate='visible' src={house} alt="house" />
           </div>
         </div>
       </div>
       <Approach />
       <div className='ori__termiteControl-custom'>
         <div className='ori__termiteControl-custom_img'>
-          <img src={custom} alt="custom-plan" />
+          <motion.img variants={imageVariants} initial='hidden' animate='visible' src={custom} alt="custom-plan" />
         </div>
         <div className='ori__termiteControl-custom_content'>
           <p>CUSTOM TREATMENT</p>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { containerVariants } from '../../components/buttons/containerVariants'
+import { imageVariants } from '../../assets/imageVariants'
 // import {Link, useNavigate} from 'react-router-dom'
 import hero from '../../assets/hero.png'
 import heroLogo from '../../assets/hero-nobg4.png'
@@ -16,7 +17,7 @@ const Hero = () => {
         <div className='ori__hero-content'>
             <div className='ori__hero-content_heading'>
                 {/* <h1>Ori Pest Cop</h1> */}
-                <img src={heroLogo} alt='hero-logo' />
+                <motion.img variants={imageVariants} initial='hidden' animate='visible' src={heroLogo} alt='hero-logo' />
             </div>
             <div className='ori__hero-content_buttons'>
                 <motion.div 

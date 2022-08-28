@@ -1,5 +1,6 @@
 import React from 'react'
-// import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp, FaYoutube } from 'react-icons/fa'
+import { motion } from 'framer-motion'
+import { imageVariants } from '../../assets/imageVariants'
 import ServiceCard from '../../components/serviceCard/ServiceCard'
 
 import termite from '../../assets/servicesAssets/termite-gr.png'
@@ -25,6 +26,7 @@ import Connect from '../../containers/connect/Connect'
 import Socials from '../../containers/socials/Socials'
 
 const PestControl = () => {
+
   const pestItems = [
     {name: 'Termites', pestImg: termite},
     {name: 'Bed Bugs', pestImg: bedbug},
@@ -40,11 +42,12 @@ const PestControl = () => {
     {name: 'House Flies', pestImg: fly},
     {name: 'Snakes', pestImg: snake},    
   ]
+
   return (
     <div className='ori__pestControl'>
       <div className='ori__pestControl-hero'>
         <div className='ori__pestControl-hero_img'>
-          <img src={pcHero} alt="pest-control-hero" />
+          <motion.img variants={imageVariants} initial='hidden' animate='visible' src={pcHero} alt="pest-control-hero" />
         </div>
         <div className='ori__pestControl-hero_content'>
           <h5>ORI PEST COP</h5>

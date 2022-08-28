@@ -1,4 +1,6 @@
 import React from 'react'
+import { motion } from 'framer-motion'
+import { imageVariants } from '../../assets/imageVariants'
 
 import ServiceCard from '../../components/serviceCard/ServiceCard'
 
@@ -16,7 +18,7 @@ const Services = () => {
   return (
     <div className='ori__services'>
       <div className='ori__services-image'>
-        <img src={services} alt='services' />
+        <motion.img variants={imageVariants} initial='hidden' animate='visible' src={services} alt='services' />
       </div>
       <div className='ori__services_content'>
         <h1>We’ll fix what’s pestering you.</h1>

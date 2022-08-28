@@ -1,4 +1,6 @@
 import React from 'react'
+import { motion } from 'framer-motion'
+import { imageVariants } from '../../assets/imageVariants'
 import './featureCard.styles.css'
 
 
@@ -16,7 +18,7 @@ const FeatureCard = ({ image, icon, title, heading, text, reverse }) => {
             </div>
         </div>
         <div className='ori__features_featureCard-image'>
-            <img src={image} alt={title} />
+            <motion.img variants={imageVariants} initial='hidden' animate='visible' src={image} alt={title} />
         </div>
     </div>
   )

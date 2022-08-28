@@ -6,7 +6,7 @@ import './socials.styles.css'
 const socialsVariants = {
   hover: {
     scale: 1.1,
-    color: 'purple',
+    color: 'green',
   },
   click: {
     scale: 0.9,
