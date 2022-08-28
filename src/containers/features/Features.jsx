@@ -3,10 +3,10 @@ import FeatureCard from '../../components/featureCard/FeatureCard'
 import { FaHandshake } from 'react-icons/fa'
 import { BiSearchAlt, BiNotepad } from 'react-icons/bi'
 
-import service from '../../assets/featureAssets/service.png'
+import service from '../../assets/featureAssets/ppe-suit3.png'
 import inspection from '../../assets/featureAssets/inspection.png'
 import billing from '../../assets/featureAssets/billing.png'
-import partners from '../../assets/featureAssets/pestPartners.png'
+import partners from '../../assets/featureAssets/partners.png'
 import './features.styles.css'
 
 const Features = () => {
