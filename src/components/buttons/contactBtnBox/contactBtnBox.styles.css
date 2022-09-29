@@ -29,3 +29,9 @@
         align-items: center;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .ori__contactBtnBox {
+        min-width: 100px;
+    }
+}

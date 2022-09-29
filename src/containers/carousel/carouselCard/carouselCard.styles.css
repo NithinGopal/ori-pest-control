@@ -1,0 +1,40 @@
+.carouselCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.carouselCard-rating {
+    display: flex;
+    gap: 5px;
+}
+
+.carouselCard-review {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    text-align: center;
+    font-weight: bold;
+}
+
+.carouselCard-user {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--font-family);
+}
+
+.carouselCard-user h3 {
+    color: var(--color-heading);
+}
+
+.carouselCard-user p {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--color-text);
+}

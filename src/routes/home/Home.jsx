@@ -13,11 +13,13 @@ import Footer from '../../containers/footer/Footer'
 import { homeFaq } from '../../assets/textContent/faqContent'
 import './home.styles.css'
 import Team from '../../containers/team/Team'
+import Carousel from '../../containers/carousel/Carousel'
 
 const Home = () => {
   return (
     <>
       <Hero />
+      <Carousel />
       <About />
       <Services />
       <Features />

@@ -23,7 +23,7 @@ const NavMenu = () => {
         <motion.p variants={navLinkVariants} whileHover='hover' whileTap='click'>Pest Control</motion.p>
       </Link>
       <Link to='/pest-library'>
-        <motion.p variants={navLinkVariants} whileHover='hover' whileTap='click'>Pest Library</motion.p>
+        <motion.p variants={navLinkVariants} whileHover='hover' whileTap='click'>Gallery</motion.p>
       </Link>
     </>
   )

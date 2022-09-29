@@ -17,7 +17,7 @@ const ContactBtn = () => {
           <motion.button 
             type='button'
           >
-            <FiPhoneCall />
+            <FiPhoneCall size={20} />
             <p>Call Us</p>
           </motion.button>
         </motion.a>
