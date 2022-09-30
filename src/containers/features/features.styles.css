@@ -17,4 +17,9 @@
         margin: 4rem 0;
         padding: 2rem 0;
     }
+
+    .ori__features h1 {
+        padding: 0 2rem;
+        text-align: center;
+    }
 }
