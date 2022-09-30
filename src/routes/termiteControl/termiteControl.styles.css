@@ -329,6 +329,19 @@
 }
 
 @media screen and (max-width: 850px) {
+
+    .ori__termiteControl-hero_heading h1 {
+        color: var(--color-heading);
+        font-size: 2rem;
+    }
+    
+    .ori__termiteControl-hero_heading p {
+        color: var(--color-text);
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: left;
+    }
+
     .ori__termiteControl-custom {
         display: flex;
         flex-direction: column;
@@ -366,6 +379,18 @@
 }
 
 @media screen and (max-width: 450px) {
+    .ori__termiteControl-hero_heading h1 {
+        color: var(--color-heading);
+        font-size: 2rem;
+    }
+    
+    .ori__termiteControl-hero_heading p {
+        color: var(--color-text);
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: left;
+    }
+
     .ori__termiteControl-science {
         display: flex;
         flex-flow: column wrap;
