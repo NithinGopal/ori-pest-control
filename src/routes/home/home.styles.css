@@ -1,3 +1,9 @@
 .ori__home-connect .ori__termiteControl-connect {
     padding: 3rem 6rem;
 }
+
+@media screen and (max-width: 850px) {
+    .ori__home-connect .ori__termiteControl-connect {
+        padding: 3rem;
+    }
+}
