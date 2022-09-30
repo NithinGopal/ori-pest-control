@@ -61,7 +61,7 @@
 }
 
 .ori__commercial-expert_content p {
-    color: green;
+    color: var(--sub-heading);
     font-weight: 600;
 }
 
@@ -130,7 +130,7 @@
 }
 
 .ori__commercial-coverage_content p:first-child {
-    color: green;
+    color: var(--sub-heading);
     font-weight: 600;
 }
 

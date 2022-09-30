@@ -148,7 +148,7 @@
 }
 
 .ori__termiteControl-science_content-heading a {
-    color: firebrick;
+    color: var(--sub-heading);
     font-weight: 600;
     text-decoration: underline;
 }
@@ -180,7 +180,7 @@
 }
 
 .ori__termiteControl-science_contact p {
-    color: brown;
+    color: var(--sub-heading);
     font-weight: 600;
     word-spacing: 2px;
 }
@@ -247,6 +247,12 @@
     gap: 1rem;
 
     font-family: var(--font-family);
+}
+
+.ori__termiteControl-custom_content p:first-of-type {
+    color: var(--sub-heading);
+    font-weight: 600;
+    text-align: left;
 }
 
 .ori__termiteControl-custom_content p {
