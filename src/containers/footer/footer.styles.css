@@ -18,7 +18,8 @@
 }
 
 .ori__footer-container h3 {
-    color: rgb(20, 160, 20);
+    color: #00B230;
+    font-size: 1.2rem;
 }
 
 .ori__footer-container_logo {
@@ -28,8 +29,8 @@
     align-items: center;
 }
 .ori__footer-container_logo-image img {
-    width: 150px;
-    height: 100%;
+    max-width: 250px;
+    max-height: 200px;
 }
 
 .ori__footer-container_services {
@@ -75,7 +76,17 @@
 .ori__footer-container_copyright {
     border-top: 2px solid black;
     padding: 2rem 0;
+    letter-spacing: 1.5px;
 }
+
+.ori__footer-container_about a,
+    .ori__footer-container_services a,
+    .ori__footer-container_contact a {
+        font-size: 0.9rem;
+        font-weight: 600;
+        font-family: var(--font-family);
+        letter-spacing: 1px;
+    }
 
 @media screen and (max-width: 800px) {
     .ori__footer-container {
@@ -84,6 +95,7 @@
         justify-content: space-evenly;
         align-items: center;
         gap: 2rem;
+        text-align: center;
     }
 
     .ori__footer-container_about,
@@ -96,6 +108,10 @@
     }
 
     .ori__footer-container_contact-socials {
+        text-align: center;
+    }
+
+    .ori__footer-container_copyright {
         text-align: center;
     }
 }

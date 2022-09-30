@@ -3,7 +3,7 @@ import {FaFacebook, FaWhatsapp, FaRegCopyright, FaYoutube, FaLinkedin, FaInstagr
 import { Link } from 'react-router-dom'
 import Socials from '../socials/Socials'
 
-import logo from '../../assets/footer-logo.png'
+import logo from '../../assets/ori-logo.png'
 import './footer.styles.css'
 
 const Footer = () => {
@@ -20,7 +20,7 @@ const Footer = () => {
             <p>Muthukur Gate</p>
             <p>Nellore</p>
             <p>520203</p>
-            <p>Andhra Pradesh</p>
+            <p>Andhra Pradesh</p> 
             <p>India</p>
           </div> */}
         </div>
@@ -33,8 +33,9 @@ const Footer = () => {
         </div>
         <div className='ori__footer-container_about'>
           <div className='ori__footer-container_about-heading'>
-            <a href="#about"><h3>About</h3></a>
+            <h3>About</h3>
           </div>
+          <a href="#">Team</a>
         </div>
         <div className='ori__footer-container_contact'>
           <div className='ori__footer-container_contact-heading'>
@@ -45,12 +46,6 @@ const Footer = () => {
         <div className='ori__footer-container_contact-socials'>
           {/* <h3>Follow us on:</h3> */}
           <div className='ori__footer-container_contact-socials_links'>
-          {/* <a href='https://www.facebook.com/oripestservice' target='_blank' rel="noreferrer"><FaFacebook size={20} /></a>
-            <a href='https://wa.me/message/RE3RCGX3NMFDP1' target='_blank' rel="noreferrer"><FaWhatsapp size={20} /></a>
-            <a href='https://youtube.com/channel/UCDck-_3SmiS36pUmOSV22Gw' target='_blank' rel="noreferrer"><FaYoutube size={20} /></a>
-            <a href='https://www.linkedin.com/in/ori-pest-cop-372175218' target='_blank' rel="noreferrer"><FaLinkedin size={20} /></a>
-            <a href="https://www.instagram.com/oripestcop/" target='_blank' rel="noreferrer"><FaInstagram size={20} /></a> */}
-
             <Socials size={20} />
           </div>
         </div>

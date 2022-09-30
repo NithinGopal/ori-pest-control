@@ -6,7 +6,7 @@ import { MdPhoneInTalk, MdLocationOn } from 'react-icons/md'
 import NavMenu from '../../containers/navMenu/NavMenu'
 import Footer from '../../containers/footer/Footer'
 
-import logo from '../../assets/navicon-nobg.png'
+import logo from '../../assets/nav-logo.png'
 import './navbar.styles.css'
 import ContactBtn from '../../components/buttons/contactBtn/ContactBtn'
 import QuoteBtn from '../../components/buttons/quoteBtn/QuoteBtn'

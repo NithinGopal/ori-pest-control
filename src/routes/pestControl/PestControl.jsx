@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { imageVariants } from '../../assets/imageVariants'
 import ServiceCard from '../../components/serviceCard/ServiceCard'
 
+import logo from '../../assets/ori-logo.png'
 import termite from '../../assets/servicesAssets/termite-gr.png'
 import bedbug from '../../assets/servicesAssets/bedbug-gr.png'
 import ticks from '../../assets/servicesAssets/tick-gr.png'
@@ -50,8 +51,9 @@ const PestControl = () => {
           <motion.img variants={imageVariants} initial='hidden' animate='visible' src={pcHero} alt="pest-control-hero" />
         </div>
         <div className='ori__pestControl-hero_content'>
-          <h5>ORI PEST COP</h5>
-          <h1>Pest Control</h1>
+          <div className='ori__pestControl-hero_content-logo'>
+            <img src={logo} alt="logo" />
+          </div>
           <div className='ori__pestControl-hero_content-socials'>
             <Socials size='32' />
           </div> 
@@ -88,9 +90,8 @@ const PestControl = () => {
         <div className='ori__pestControl-expect_content'>
           <p>ORI EXPERIENCE</p>
           <h1>What to expect from Ori Pest Cop</h1>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias 
-            doloremque eaque beatae cupiditate suscipit corporis veritatis 
-            magnam ad odit. Perspiciatis?
+          <p>
+            Ori Pest Cop Guarantee means you can relax knowing we’ll fix your pest problem, and it'll stay nixed. And if pests come back between treatments, so will we — at no additional cost to you.
           </p>
         </div>
       </div>

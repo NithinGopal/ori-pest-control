@@ -8,7 +8,7 @@ const socialsVariants = {
     scale: 1.1,
     color: 'green',
   },
-  click: {
+  click: { 
     scale: 0.9,
     color: 'blue',
   }

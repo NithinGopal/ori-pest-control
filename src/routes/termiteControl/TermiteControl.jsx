@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { imageVariants } from '../../assets/imageVariants'
 import './termiteControl.styles.css'
+import logo from '../../assets/ori-logo.png'
 import hero from '../../assets/termite-control/tc-hero.png'
 import pipe from '../../assets/termite-control/water-pipe.png'
 import damaged from '../../assets/termite-control/damaged.png'
@@ -21,9 +22,8 @@ const TermiteControl = () => {
   return (
     <div className='ori__termiteControl'>
       <div className='ori__termiteControl-title'>
-        <div className='ori__termiteControl-title_heading'>
-          <h1>ORI PEST COP</h1>
-          <h1>TERMITE CONTROL</h1>
+        <div className='ori__termiteControl-title_logo'>
+          <img src={logo} alt="logo" />
         </div>
         <div className='ori__termiteControl-title_content'>
           <p>

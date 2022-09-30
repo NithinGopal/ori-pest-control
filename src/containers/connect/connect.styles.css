@@ -1,5 +1,5 @@
 .ori__termiteControl-connect {
-    padding: 3rem;
+    padding: 4rem;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -76,7 +76,7 @@
 }
 
 .ori__termiteControl-connect_socials a {
-    margin-right: 0.5rem;
+    margin-right: 0.8rem;
     color: var(--color-text);
 }
 

@@ -44,8 +44,6 @@ const FormikContainer = () => {
         // date: Yup.date().required('Required').nullable(),
     })
 
-    
-
     const sendEmail = (values) => {
         const templateParams = {
             from_name: values.fullName,

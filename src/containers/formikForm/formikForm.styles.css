@@ -55,4 +55,7 @@ label {
   
   .error {
     color: red;
+    font-family: var(--font-family);
+    font-size: 0.8rem;
+    font-weight: 600;
   }

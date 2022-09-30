@@ -1,23 +1,33 @@
 .ori__termiteControl {
     display: flex;
     flex-direction: column;
-    padding: 2rem 6rem;
+    /* padding: 2rem 6rem; */
 }
 
 .ori__termiteControl-title {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 2rem;
+    padding: 2rem 4rem;
     gap: 2rem;
 }
 
-.ori__termiteControl-title_heading {
+/* .ori__termiteControl-title_heading {
     flex: 1.2;
     font-family: var(--font-family);
     color: var(--color-heading);
     font-weight: bolder;
     font-size: 1.5rem;
+} */
+
+.ori__termiteControl-title_logo {
+    flex: 1.2;
+    padding-right: 2rem;
+}
+
+.ori__termiteControl-title_logo img {
+    width: 100%;
+    height: 100%;
 }
 
 .ori__termiteControl-title_content {
@@ -69,7 +79,7 @@
 
 .ori__termiteControl-hero {
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .ori__termiteControl-hero img {
@@ -88,13 +98,13 @@
     align-items: flex-start;
     gap: 2rem;
     width: 50%;
-
+    padding: 2rem;
     font-family: var(--font-family);
 }
 
 .ori__termiteControl-hero_heading h1 {
     color: var(--color-heading);
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 
 .ori__termiteControl-hero_heading p {
@@ -108,7 +118,7 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    padding: 2rem 0;
+    padding: 2rem 4rem;
 }
 
 .ori__termiteControl-science_content {
@@ -150,7 +160,6 @@
     flex-wrap: wrap;
     width: 100%;
     padding-right: 4rem;
-    
 }
 
 .ori__termiteControl-science_contact {
@@ -216,6 +225,7 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+    padding: 4rem;
 }
 
 .ori__termiteControl-custom_img {
@@ -234,6 +244,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding-left: 3rem;
+    gap: 1rem;
 
     font-family: var(--font-family);
 }
