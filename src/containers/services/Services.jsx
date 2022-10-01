@@ -29,7 +29,7 @@ const Services = () => {
             the colony level and can even predict local pest behavior 
             based on climate and weather patterns. And now that you can 
             schedule inspections and buy services online, it’s easier 
-            than ever to nix your pest problem.
+            than ever to fix your pest problem.
         </p>
         <div className='ori__services_content-serviceCards'>
           <ServiceCard image={termite} name='Termite' route='/termitecontrol' />

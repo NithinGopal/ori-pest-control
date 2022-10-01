@@ -12,7 +12,7 @@ const Guarantee = () => {
       <div className='ori__guarantee-text'>
         <p>
           Ori Pest Cop Guarantee means you can relax knowing 
-          we’ll fix your pest problem, and it'll stay nixed. 
+          we’ll fix your pest problem, and it'll stay fixed. 
           And if pests come back between treatments, so 
           will we — at no additional cost to you.
         </p>

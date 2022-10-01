@@ -39,7 +39,7 @@ const Features = () => {
         title='Advise' 
         heading='Customized treatment plans'
         text={`We’ll explain your pest problem in plain language and work 
-          with you to develop your own customized solution to nix your pests 
+          with you to develop your own customized solution to fix your pests 
           and keep them from coming back, 365 days a year.`}
       />
       <FeatureCard 
@@ -47,7 +47,7 @@ const Features = () => {
         icon={<FaHandshake size={40} color='#93acb5' />} 
         title='Partner' 
         heading='Your pest-free partners.'
-        text={`Once we start treatment, you can relax. We guarantee we’ll nix 
+        text={`Once we start treatment, you can relax. We guarantee we’ll fix 
           your pests and keep them from coming back. Or we'll come back between 
           treatments at no additional cost to you.`}
           reverse= 'reverse' 
