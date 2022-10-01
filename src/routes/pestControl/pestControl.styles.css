@@ -231,6 +231,14 @@
         color: var(--body-bg);
     }
 
+    .ori__pestControl-hero_content-socials a {
+        margin: 0;
+    }
+    
+    .ori__pestControl-hero_content-socials .ori__socials-links {
+        gap: 1rem;
+    }
+
     .ori__pestControl-problem {
         padding: 2rem 1rem;
     }
@@ -297,7 +305,15 @@
     }
 
     .ori__pestControl-hero_content-socials .ori__socials svg {
-        scale: 0.8;
+        scale: 0.6;
+    }
+
+    .ori__pestControl-hero_content-socials a {
+        margin: 0;
+    }
+    
+    .ori__pestControl-hero_content-socials .ori__socials-links {
+        gap: 1rem;
     }
 }
 
@@ -307,11 +323,12 @@
         flex: 1.2;
         max-width: 150px;
         max-height: 50px;
+        object-fit: cover;
     }
 
     .ori__pestControl-hero_content {
-        top: 40px;
-        left: 40px;
+        top: 15px;
+        left: 20px;
         display: flex;
         flex-direction: column;
     }
@@ -322,10 +339,18 @@
     }
 
     .ori__pestControl-hero_content-socials .ori__socials svg {
-        scale: 0.8;
+        scale: 0.6;
     }
 
     .ori__pestControl-hero_content-socials .ori__socials h3 {
         font-size: 0.8rem;
+    }
+
+    .ori__pestControl-hero_content-socials a {
+        margin: 0;
+    }
+    
+    .ori__pestControl-hero_content-socials .ori__socials-links {
+        gap: 1rem;
     }
 }

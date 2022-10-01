@@ -22,7 +22,7 @@ const Commercial = () => {
                 <QuoteBtn />
             </div>
             <div className='ori__commercial-hero_img'>
-                <motion.img variants={imageVariants} initial='hidden' animate='visible' src={commHero} alt="comm-hero" />
+                <motion.img loading='lazy' variants={imageVariants} initial='hidden' animate='visible' src={commHero} alt="comm-hero" />
             </div>
         </div>
         <div className='ori__commercial-expert'>

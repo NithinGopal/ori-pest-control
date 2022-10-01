@@ -18,7 +18,7 @@ const Services = () => {
   return (
     <div className='ori__services'>
       <div className='ori__services-image'>
-        <motion.img variants={imageVariants} initial='hidden' animate='visible' src={services} alt='services' />
+        <motion.img loading='lazy' variants={imageVariants} initial='hidden' animate='visible' src={services} alt='services' />
       </div>
       <div className='ori__services_content'>
         <h1>We’ll fix what’s pestering you.</h1>

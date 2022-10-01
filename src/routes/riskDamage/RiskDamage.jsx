@@ -35,7 +35,7 @@ const RiskDamage = () => {
                 </div>
             </div>
             <div className='ori__risk-hero_img'>
-                <img src={riskHero} alt="risk-hero" />
+                <img loading='lazy' src={riskHero} alt="risk-hero" />
             </div>
         </div>
         <div className='ori__risk-threats'>
@@ -89,7 +89,7 @@ const RiskDamage = () => {
             </div>
             <div className='ori__risk-support'>
                 <div className='ori__risk-support_img'>
-                    <img src={riskSupport} alt="risk-support" />
+                    <img loading='lazy' src={riskSupport} alt="risk-support" />
                 </div>
                 <div className='ori__risk-support_content'>
                     <p>EXPERT SUPPORT</p>

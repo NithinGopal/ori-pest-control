@@ -14,7 +14,7 @@ const ContactPage = () => {
     <div className='ori__contactPage'>
       <div className='ori__contactPage-hero'>
         <div className='ori__contactPage-hero_img'>
-          <motion.img variants={imageVariants} initial='hidden' animate='visible' src={cpHero} alt="cpHero" />
+          <motion.img loading='lazy' variants={imageVariants} initial='hidden' animate='visible' src={cpHero} alt="cpHero" />
         </div>
         <div className='ori__contactPage-hero_content'>
           <div className='ori__contactPage-hero_content-logo'>

@@ -48,7 +48,7 @@ const PestControl = () => {
     <div className='ori__pestControl'>
       <div className='ori__pestControl-hero'>
         <div className='ori__pestControl-hero_img'>
-          <motion.img variants={imageVariants} initial='hidden' animate='visible' src={pcHero} alt="pest-control-hero" />
+          <motion.img loading='lazy' variants={imageVariants} initial='hidden' animate='visible' src={pcHero} alt="pest-control-hero" />
         </div>
         <div className='ori__pestControl-hero_content'>
           <div className='ori__pestControl-hero_content-logo'>

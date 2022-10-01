@@ -16,7 +16,6 @@ const Hero = () => {
     <div className='ori__hero'>
         <div className='ori__hero-content'>
             <div className='ori__hero-content_heading'>
-                {/* <h1>Ori Pest Cop</h1> */}
                 <motion.img variants={imageVariants} initial='hidden' animate='visible' src={heroLogo} alt='hero-logo' />
             </div>
             <div className='ori__hero-content_buttons'>
@@ -36,7 +35,7 @@ const Hero = () => {
             
         </div>
         <div className='ori__hero-image'>
-            <img src={hero} alt='hero' />
+            <motion.img variants={imageVariants} initial='hidden' animate='visible' src={hero} alt='hero' />
         </div>
     </div>
   )

@@ -3,7 +3,6 @@ import Hero from '../../containers/hero/Hero'
 import About from '../../containers/about/About'
 import Services from '../../containers/services/Services'
 import Features from '../../containers/features/Features'
-import Reviews from '../../containers/reviews/Reviews'
 import Blog from '../../containers/blog/Blog'
 import FAQ from '../../containers/faq/FAQ'
 import CallToAction from '../../containers/callToAction/CallToAction'
@@ -23,7 +22,6 @@ const Home = () => {
       <About />
       <Services />
       <Features />
-      {/* <Reviews /> */}
       {/* <Blog /> */}
       <FAQ faqContent={homeFaq} />
       {/* <Team /> */}
@@ -32,7 +30,6 @@ const Home = () => {
         <Connect />
       </div>
       <Guarantee />
-      {/* <Footer /> */}
     </>
   )
 }
