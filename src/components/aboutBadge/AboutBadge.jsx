@@ -9,7 +9,7 @@ const AboutBadge = ({ icon, text}) => {
     <div className='ori__aboutBadge'>
         <div className='ori__aboutBadge-card'>
             <BiHomeSmile color='#334B4A' size={80} />
-            <h2>500+ homes serviced</h2>
+            <h2>100+ homes serviced</h2>
             <p>Specializing in your local pest populations.</p>
         </div>
         <div className='ori__aboutBadge-card'>
