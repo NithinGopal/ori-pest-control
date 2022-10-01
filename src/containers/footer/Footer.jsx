@@ -28,8 +28,8 @@ const Footer = () => {
           <div className='ori__footer-container_services-heading'>
             <h3>Services</h3>
           </div>
-          <Link to='/termitecontrol'>Termite Control</Link>
-          <Link to='/pestcontrol'>Pest Control</Link>
+          <Link to='/termite-control'>Termite Control</Link>
+          <Link to='/pest-control'>Pest Control</Link>
         </div>
         <div className='ori__footer-container_about'>
           <div className='ori__footer-container_about-heading'>
