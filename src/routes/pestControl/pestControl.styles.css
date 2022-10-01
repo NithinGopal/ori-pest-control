@@ -91,7 +91,7 @@
 .ori__pestControl-problem_left p {
     font-size: 16px;
     font-weight: 600;
-    color: var(--color-text);
+    color: var(--sub-heading);
     padding: 1rem 0;
 }
 
@@ -170,6 +170,10 @@
     padding-left: 4rem;
 
     font-family: var(--font-family);
+}
+
+.ori__pestControl-expect_content p:first-of-type {
+    color: var(--sub-heading);
 }
 
 .ori__pestControl-expect_content p {

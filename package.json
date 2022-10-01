@@ -1,5 +1,6 @@
 {
   "name": "ori-pest-control",
+  "homepage": "http://oripestcop.in" ,
   "version": "0.1.0",
   "private": true,
   "dependencies": {
