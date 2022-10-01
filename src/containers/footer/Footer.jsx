@@ -35,6 +35,7 @@ const Footer = () => {
           <div className='ori__footer-container_about-heading'>
             <h3>About</h3>
           </div>
+          <a href="#about">About</a>
           <a href="#">Team</a>
         </div>
         <div className='ori__footer-container_contact'>
