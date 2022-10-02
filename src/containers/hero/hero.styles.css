@@ -260,6 +260,10 @@
     .ori__hero-content .btn {
         width: 350px;
     }
+
+    .ori__hero-content_buttons {
+        max-width: 20rem;
+    }
 }
 
 @media screen and (max-width: 300px) {
