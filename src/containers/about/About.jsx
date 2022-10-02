@@ -11,7 +11,7 @@ const About = () => {
         </div>
         <div className='ori__about-content_text'>
           <p>
-            For more than 500+ home, we’ve protected what's most valuable to you, 
+            For more than 100+ home, we’ve protected what's most valuable to you, 
             with local specialists who go above and beyond to fix your problem and 
             services designed to make your life easier, 365 days a year. So when you 
             trust Ori Pest Cop to fix your pest problem, it's not just a promise. It's a guarantee.
