@@ -22,7 +22,7 @@ const Banner = () => {
   return (
     <div className='banner-container'>
       <motion.div variants={bannerVariants} initial='hidden' animate='visible' className='banner-container_content'>
-        <MdLocalOffer size={20} color='#00506C' />
+        <MdLocalOffer size={24} color='#00506C' />
         <p>
           20% Discount! Insurance cover upto 10 lakhs on Termite control service.
         </p>
