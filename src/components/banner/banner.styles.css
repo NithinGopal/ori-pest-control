@@ -1,0 +1,36 @@
+.banner-container {
+    background: #eb1502;
+    padding: 10px;
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-transform: uppercase; */
+    text-align: center;
+}
+
+.banner-container_content {
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.banner-container_content p:first-of-type {
+    align-self: center;
+    display: flex;
+}
+
+.banner-container_content span {
+    align-self: baseline;
+}
+
+@media screen and (max-width: 700px) {
+    .banner-container_content {
+        font-size: 0.8rem;
+        padding: 0 2rem;
+    }
+}

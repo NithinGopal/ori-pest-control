@@ -5,6 +5,7 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import { MdPhoneInTalk, MdLocationOn } from 'react-icons/md'
 import NavMenu from '../../containers/navMenu/NavMenu'
 import Footer from '../../containers/footer/Footer'
+import Banner from '../../components/banner/Banner'
 
 import logo from '../../assets/nav-logo-bl.png'
 import './navbar.styles.css'
@@ -23,6 +24,7 @@ const Navbar = () => {
 
   return (
     <>
+      <Banner />
       <div className='ori__banner'>
         <div className='ori__banner-location'>
           <MdLocationOn size={20} color='#f2571c' />
