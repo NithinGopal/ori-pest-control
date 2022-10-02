@@ -24,7 +24,7 @@ const Banner = () => {
       <motion.div variants={bannerVariants} initial='hidden' animate='visible' className='banner-container_content'>
         <MdLocalOffer size={20} color='#00506C' />
         <p>
-          20% Discount! Insurance cover Upto 5-10 lakhs on Termite control service.
+          20% Discount! Insurance cover upto 10 lakhs on Termite control service.
         </p>
       </motion.div>
         
