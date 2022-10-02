@@ -8,8 +8,6 @@ import Footer from '../../containers/footer/Footer'
 
 import logo from '../../assets/nav-logo-bl.png'
 import './navbar.styles.css'
-import ContactBtn from '../../components/buttons/contactBtn/ContactBtn'
-import QuoteBtn from '../../components/buttons/quoteBtn/QuoteBtn'
 
 const navLinkVariants = {
   hover: {
@@ -42,7 +40,6 @@ const Navbar = () => {
           <Link to='/'>
             <motion.div variants={navLinkVariants} whileHover='hover' whileTap='click' className='ori__navbar-links_logo'>
               <img src={logo} alt='logo' />
-              {/* <p>Ori Pest Cop</p> */}
             </motion.div>
           </Link>
         </div>
@@ -86,8 +83,6 @@ const Navbar = () => {
                 <div className='ori__navbar-menu_container-links-contact'>
                   <a href="tel:+919100094789"><button className='call-btn' type='button'>Call Now</button></a>
                   <Link to='/contact-page'><button className='quote-btn' type='button'>Get Quote</button></Link>
-                  {/* <ContactBtn />
-                  <QuoteBtn /> */}
                 </div>
               </div>
             </div>
