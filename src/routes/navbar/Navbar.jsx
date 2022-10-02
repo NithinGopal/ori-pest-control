@@ -12,10 +12,10 @@ import './navbar.styles.css'
 
 const navLinkVariants = {
   hover: {
-    scale: 1.1,
+    scale: 1.05,
   },
   click: {
-    scale: 0.8,
+    scale: 0.9,
   }
 }
 
