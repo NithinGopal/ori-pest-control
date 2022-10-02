@@ -220,7 +220,7 @@
 
 @media screen and (max-width: 550px) {
     .ori__navbar {
-        padding: 2rem;
+        padding: 0.6rem 2rem;
     }
 
     .ori__navbar-contact {
