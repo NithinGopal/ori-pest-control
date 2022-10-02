@@ -12,21 +12,19 @@
 .banner-container_content {
     padding: 0;
     display: flex;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center;
     gap: 5px;
     color: rgb(255, 255, 255);
-    font-size: 1.05rem;
+    font-size: 1.06rem;
     font-weight: 700;
 }
 
-.banner-container_content p:first-of-type {
-    align-self: center;
-    display: flex;
-}
 
-.banner-container_content span {
-    align-self: baseline;
-}
+/* .banner-container_content span {
+    font-size: 1.5rem;
+    color: #47C300;
+} */
 
 @media screen and (max-width: 700px) {
     .banner-container_content {
