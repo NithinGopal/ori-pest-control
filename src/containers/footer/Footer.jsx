@@ -3,7 +3,7 @@ import {FaFacebook, FaWhatsapp, FaRegCopyright, FaYoutube, FaLinkedin, FaInstagr
 import { Link } from 'react-router-dom'
 import Socials from '../socials/Socials'
 
-import logo from '../../assets/ori-logo.png'
+import logo from '../../assets/ori-logo-w.png'
 import './footer.styles.css'
 
 const Footer = () => {

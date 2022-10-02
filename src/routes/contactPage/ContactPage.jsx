@@ -7,7 +7,7 @@ import cpHero from '../../assets/contact-page/contact-page-hero.png'
 import './contactPage.styles.css'
 import FormikContainer from '../../containers/formikForm/FormikContainer'
 import Socials from '../../containers/socials/Socials'
-import logo from '../../assets/ori-logo.png'
+import logo from '../../assets/ori-logo-w.png'
 
 const ContactPage = () => {
   return (

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { imageVariants } from '../../assets/imageVariants'
 import ServiceCard from '../../components/serviceCard/ServiceCard'
 
-import logo from '../../assets/ori-logo.png'
+import logo from '../../assets/ori-logo-w.png'
 import termite from '../../assets/servicesAssets/termite-gr.png'
 import bedbug from '../../assets/servicesAssets/bedbug-gr.png'
 import ticks from '../../assets/servicesAssets/tick-gr.png'

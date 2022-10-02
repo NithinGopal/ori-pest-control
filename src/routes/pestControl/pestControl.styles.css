@@ -55,6 +55,7 @@
 .ori__pestControl-hero_content-socials {
     display: flex;
     justify-content: flex-start;
+    padding-left: 2rem;
 }
 
 .ori__pestControl-hero_content-socials h3 {

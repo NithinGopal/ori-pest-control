@@ -77,6 +77,7 @@
     border-top: 2px solid black;
     padding: 2rem 0;
     letter-spacing: 1.5px;
+    justify-self: centre;
 }
 
 .ori__footer-container_about a,
